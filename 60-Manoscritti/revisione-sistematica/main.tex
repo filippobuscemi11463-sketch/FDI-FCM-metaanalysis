@@ -27,6 +27,8 @@
 \usepackage{lineno}
 \usepackage[hidelinks]{hyperref}
 \usepackage{doi}
+% DOIs typeset as URLs: they may break at / or . but never at a hyphen, which would read as part of the DOI
+\renewcommand{\doi}[1]{\href{https://doi.org/#1}{doi:{\urlstyle{same}\nolinkurl{#1}}}}
 
 \graphicspath{{../../50-Metanalisi/output/forest/}}
 \input{generati/numeri.tex}
