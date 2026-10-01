@@ -1,0 +1,7 @@
+# 2026-09-29T16:55:43+02:00 — 148 record
+
+## term
+(("ferric derisomaltose"[tiab] OR "iron isomaltoside"[tiab] OR "isomaltoside 1000"[tiab] OR Monofer[tiab] OR Monoferric[tiab] OR Diafer[tiab] OR "ferric derisomaltose"[nm]) AND ("ferric carboxymaltose"[tiab] OR carboxymaltose[tiab] OR Ferinject[tiab] OR Injectafer[tiab] OR "ferric carboxymaltose"[nm])) NOT ("published erratum"[pt])
+
+## querytranslation
+(("ferric derisomaltose"[Title/Abstract] OR "iron isomaltoside"[Title/Abstract] OR "isomaltoside 1000"[Title/Abstract] OR "Monofer"[Title/Abstract] OR "Monoferric"[Title/Abstract] OR "Diafer"[Title/Abstract] OR "ferric derisomaltose"[Supplementary Concept]) AND ("ferric carboxymaltose"[Title/Abstract] OR "carboxymaltose"[Title/Abstract] OR "Ferinject"[Title/Abstract] OR "Injectafer"[Title/Abstract] OR "ferric carboxymaltose"[Supplementary Concept])) NOT "published erratum"[Publication Type]

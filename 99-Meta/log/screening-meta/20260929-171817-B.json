@@ -1,0 +1,127 @@
+[
+ {
+  "pmid": "38347520",
+  "decisione": "incluso",
+  "motivo": "ExplorIRON-CKD: RCT in doppio cieco, adulti con CKD e carenza marziale randomizzati 1:1 a FDI o FCM"
+ },
+ {
+  "pmid": "38391240",
+  "decisione": "dubbio",
+  "motivo": "analisi costo-utilità con modello di simulazione basata sui dati di PHOSPHARE-IBD, ma con publication type RCT: non è chiaro se riporti dati per braccio del trial"
+ },
+ {
+  "pmid": "38584682",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: case report di ipofosfatemia dopo ferro saccarato ossidato e analisi di database giapponese, senza braccio FDI o FCM randomizzato"
+ },
+ {
+  "pmid": "38874697",
+  "decisione": "incluso",
+  "motivo": "analisi post hoc di PHOSPHARE-IBD, RCT in doppio cieco FDI vs FCM in adulti con IBD"
+ },
+ {
+  "pmid": "39075673",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review narrativa su ferro e salute cardiovascolare"
+ },
+ {
+  "pmid": "39160066",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review sul trattamento della carenza marziale nello scompenso cardiaco"
+ },
+ {
+  "pmid": "39292421",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi costo-utilità con modello di simulazione, dati di trial già pubblicati altrove, nessun RCT proprio"
+ },
+ {
+  "pmid": "39648248",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review sull'ipofosfatemia da ferro endovenoso"
+ },
+ {
+  "pmid": "39651609",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica Cochrane di ferro EV vs orale in gravidanza"
+ },
+ {
+  "pmid": "39694647",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: case report di ipofosfatemia dopo FDI e denosumab"
+ },
+ {
+  "pmid": "39704663",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi costo-utilità con modello di simulazione, nessun RCT proprio"
+ },
+ {
+  "pmid": "39788722",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: sondaggio tra cardiologi, non uno studio randomizzato"
+ },
+ {
+  "pmid": "39909327",
+  "decisione": "incluso",
+  "motivo": "RCT a 3 bracci in gravidanza con IDA: FDI, FCM e ferro orale randomizzati 1:1:1; i due bracci EV non sono confrontati nell'endpoint primario, ma sono randomizzati e i dati per braccio esistono"
+ },
+ {
+  "pmid": "39954228",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review completa sull'anemia nella IBD"
+ },
+ {
+  "pmid": "40167340",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi costo-utilità con modello di simulazione, nessun RCT proprio"
+ },
+ {
+  "pmid": "40327072",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: position statement di consenso sulla carenza marziale nello scompenso cardiaco"
+ },
+ {
+  "pmid": "40363966",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review sulla carenza marziale nello scompenso cardiaco"
+ },
+ {
+  "pmid": "40466719",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: coorte retrospettiva appaiata FDI vs FCM"
+ },
+ {
+  "pmid": "40512340",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: studio prospettico monocentrico in cui FCM o iron isomaltoside erano scelti per preferenza del paziente"
+ },
+ {
+  "pmid": "40581114",
+  "decisione": "escluso",
+  "motivo": "E4-non-umano: studio di validazione di un metodo polarografico per il ferro libero nei prodotti farmaceutici"
+ },
+ {
+  "pmid": "40603803",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: capitolo di review su ferro orale ed endovenoso"
+ },
+ {
+  "pmid": "40625824",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: case report di reazione cutanea al ferro EV con breve review"
+ },
+ {
+  "pmid": "40935025",
+  "decisione": "escluso",
+  "motivo": "E4-non-umano: confronto FCM vs FDI in un modello murino di anemia sideropenica"
+ },
+ {
+  "pmid": "41080322",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: meta-analisi a rete di ferro EV vs orale nello scompenso cardiaco"
+ },
+ {
+  "pmid": "41187664",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi a rete sul ferro EV perioperatorio"
+ }
+]

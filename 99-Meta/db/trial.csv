@@ -1,0 +1,11 @@
+trial_id,acronimo,altri_registri,note
+CTRI/2020/09/027730,RAPIDIRON,NCT05358509,"NCT05358509 non citato nelle pubblicazioni: collegamento per grant, N e data di inizio"
+CTRI/2023/1/048725,i3R vs FCM (India),WHO UTN U1111-1286-2021,abstract EHA 2023 e IACH da cercare
+EudraCT-2019-004370-26,ExplorIRON-CKD,WHO UTN U1111-1240-0643; protocollo sponsor R2451,
+NCT02905539,HOMe aFers,EudraCT 2015-004808-36; DRKS00010766; WHO UTN U1111-1176-4563,analisi ad interim su 26 di 60 pianificate
+NCT03237065,PHOSPHARE-IDA05,,"gemello di NCT03238911; = «trial B» del JAMA 32016310 (verificato 2026-09-29: 122 randomizzati; ipofosfatemia 5/62=8,1% e 42/57=73,7% nel registro = 8,1% vs 73,7% nel JAMA)"
+NCT03238911,PHOSPHARE-IDA04,,"gemello di NCT03237065; = «trial A» del JAMA 32016310 (verificato 2026-09-29: 123 randomizzati in entrambi; ipofosfatemia 5/63=7,9% FDI e 45/60=75,0% FCM nel registro = 7,9% vs 75,0% nel JAMA)"
+NCT03466983,PHOSPHARE-IBD,EudraCT 2017-002452-87; codice sponsor P-Monofer-IBD-03,bracci 49/48 incoerenti fra registro e articoli
+NCT03957057,Lubiana post-partum,,ipofosfatemia dichiarata primaria in 41375693 ma assente dal registro: possibile reporting selettivo
+TRIAL-33054113,PK/PD NTBI (Haematologica 2021),,"RCT fase I, 8 per braccio, ipoferremici non anemici; nessun registro nel testo; età verificata dall'utente sulla Table 1; saggi eseguiti da Vifor"
+TRIAL-DOI-10.18203_2320-1770.ijrcog20250512,IJRCOG 2025 (Barabanki),,nessun registro; metodo di randomizzazione non descritto

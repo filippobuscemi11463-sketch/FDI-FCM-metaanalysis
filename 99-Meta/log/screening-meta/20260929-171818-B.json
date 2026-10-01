@@ -1,0 +1,112 @@
+[
+ {
+  "pmid": "41347233",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica di valutazioni economiche del ferro EV"
+ },
+ {
+  "pmid": "41375693",
+  "decisione": "incluso",
+  "motivo": "RCT open-label randomizzato FCM vs FDI vs ferro orale in donne adulte con anemia post-partum"
+ },
+ {
+  "pmid": "41445555",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: studio retrospettivo su infusioni di ferro in un ospedale terziario"
+ },
+ {
+  "pmid": "41503041",
+  "decisione": "dubbio",
+  "motivo": "database IPD meta-analysis di dataset indiani (RCT e osservazionali, include bambini) con FCM e iron isomaltoside: pooled che potrebbe includere un RCT testa a testa non pubblicato altrove"
+ },
+ {
+  "pmid": "41541984",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: revisione retrospettiva di 20 pazienti oncologici trattati con FCM o FDI"
+ },
+ {
+  "pmid": "41681887",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: coorte retrospettiva monocentrica FCM/FDI in anemia oncologica"
+ },
+ {
+  "pmid": "41682243",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: umbrella review con analisi economica basata su modello di microsimulazione"
+ },
+ {
+  "pmid": "41686372",
+  "decisione": "escluso",
+  "motivo": "E4-non-umano: studio su topi sani con FDI e FCM"
+ },
+ {
+  "pmid": "41849242",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: coorte di 357 pazienti e database TriNetX, più esperimenti su topi e in vitro; nessuna randomizzazione"
+ },
+ {
+  "pmid": "41881665",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review narrativa sul rischio infettivo del ferro parenterale"
+ },
+ {
+  "pmid": "41921282",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica con network meta-analisi"
+ },
+ {
+  "pmid": "42045095",
+  "decisione": "incluso",
+  "motivo": "analisi secondaria del trial RAPIDIRON, RCT a tre bracci FCM vs FDI vs ferro orale in gravide con IDA"
+ },
+ {
+  "pmid": "42069102",
+  "decisione": "incluso",
+  "motivo": "analisi secondaria di RCT multicentrico con bracci FDI, FCM e ferro orale in gravide con IDA moderata"
+ },
+ {
+  "pmid": "42111869",
+  "decisione": "incluso",
+  "motivo": "RCT randomizzato single-blind fase III iron isomaltoside (i3R) vs FCM in adulti con IDA"
+ },
+ {
+  "pmid": "42355917",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review narrativa sull'ipofosfatemia da ferro EV"
+ },
+ {
+  "pmid": "42400778",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: coorte retrospettiva monocentrica di follow-up a 3 mesi in anemia oncologica"
+ },
+ {
+  "pmid": "42419988",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review in giapponese su carenza di ferro e anemia sideropenica"
+ },
+ {
+  "pmid": "42464571",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: budget impact analysis basata su modello e dati amministrativi, non un RCT"
+ },
+ {
+  "pmid": "42498915",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: studio retrospettivo monocentrico su ipofosfatemia dopo solo FCM in trapiantati di polmone"
+ },
+ {
+  "pmid": "42555980",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review narrativa sul ferro nello scompenso cardiaco a FE ridotta"
+ },
+ {
+  "pmid": "42747867",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi sulle reazioni di ipersensibilità"
+ },
+ {
+  "pmid": "42764866",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: umbrella review di revisioni sistematiche e meta-analisi nello scompenso cardiaco"
+ }
+]

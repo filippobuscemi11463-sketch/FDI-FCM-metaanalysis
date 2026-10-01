@@ -1,0 +1,127 @@
+[
+ {
+  "pmid": "38347520",
+  "decisione": "incluso",
+  "motivo": "RCT double-blind ExplorIRON-CKD, adulti con CKD e carenza marziale randomizzati 1:1 a FDI o FCM"
+ },
+ {
+  "pmid": "38391240",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi costo-utilità con modello di simulazione, nessun dato primario di RCT (usa dati PHOSPHARE-IBD)"
+ },
+ {
+  "pmid": "38584682",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: case report più analisi di database su ferro saccarato (SFO), senza braccio FDI o FCM"
+ },
+ {
+  "pmid": "38874697",
+  "decisione": "incluso",
+  "motivo": "analisi post hoc del RCT PHOSPHARE-IBD, FDI vs FCM randomizzati in adulti con IBD"
+ },
+ {
+  "pmid": "39075673",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review narrativa"
+ },
+ {
+  "pmid": "39160066",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review narrativa"
+ },
+ {
+  "pmid": "39292421",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi costo-utilità con modello, nessun dato primario di RCT"
+ },
+ {
+  "pmid": "39648248",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review narrativa"
+ },
+ {
+  "pmid": "39651609",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica Cochrane"
+ },
+ {
+  "pmid": "39694647",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: case report di ipofosfatemia dopo FDI e denosumab"
+ },
+ {
+  "pmid": "39704663",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi costo-utilità con modello di simulazione"
+ },
+ {
+  "pmid": "39788722",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: survey tra cardiologi, nessun trattamento randomizzato"
+ },
+ {
+  "pmid": "39909327",
+  "decisione": "incluso",
+  "motivo": "RCT a 3 bracci in gravidanza con IDA: FDI, FCM e ferro orale randomizzati 1:1:1; FDI e FCM sono due bracci"
+ },
+ {
+  "pmid": "39954228",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review narrativa"
+ },
+ {
+  "pmid": "40167340",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi costo-utilità con modello di simulazione"
+ },
+ {
+  "pmid": "40327072",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: position statement/consensus"
+ },
+ {
+  "pmid": "40363966",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review narrativa"
+ },
+ {
+  "pmid": "40466719",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: coorte retrospettiva matched FDI vs FCM"
+ },
+ {
+  "pmid": "40512340",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: studio prospettico monocentrico, farmaco scelto per preferenza del paziente"
+ },
+ {
+  "pmid": "40581114",
+  "decisione": "escluso",
+  "motivo": "E4-non-umano: studio analitico di validazione di metodo sul ferro libero nei preparati"
+ },
+ {
+  "pmid": "40603803",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: capitolo di review"
+ },
+ {
+  "pmid": "40625824",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: case report con revisione della letteratura"
+ },
+ {
+  "pmid": "40935025",
+  "decisione": "escluso",
+  "motivo": "E4-non-umano: modello murino di IDA, FCM vs FDI"
+ },
+ {
+  "pmid": "41080322",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: network meta-analisi"
+ },
+ {
+  "pmid": "41187664",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e network meta-analisi"
+ }
+]

@@ -1,0 +1,132 @@
+[
+ {
+  "ts": "2026-09-29T17:32:38+02:00",
+  "fonte": "ctgov",
+  "stringa": "query.term=(\"ferric derisomaltose\" OR \"iron isomaltoside\" OR \"isomaltoside 1000\" OR Monofer OR Monoferric OR Diafer) AND (\"ferric carboxymaltose\" OR carboxymaltose OR Ferinject OR Injectafer)",
+  "identificati": 13,
+  "nuovi": 13,
+  "gia_presenti": 0,
+  "duplicati": []
+ },
+ {
+  "ts": "2026-09-29T17:32:38+02:00",
+  "fonte": "euctr",
+  "stringa": "query=(isomaltoside OR derisomaltose OR Monofer OR Monoferric OR Diafer) AND (carboxymaltose OR Ferinject OR Injectafer)",
+  "identificati": 4,
+  "nuovi": 4,
+  "gia_presenti": 0,
+  "duplicati": []
+ },
+ {
+  "ts": "2026-09-29T17:32:38+02:00",
+  "fonte": "ctis",
+  "stringa": "productName ∈ ['derisomaltose', 'isomaltoside', 'Monofer', 'Monoferric', 'Diafer'] (unione: 7 trial) ∩ productName ∈ ['carboxymaltose', 'Ferinject', 'Injectafer'] (unione: 10 trial)",
+  "identificati": 0,
+  "nuovi": 0,
+  "gia_presenti": 0,
+  "duplicati": []
+ },
+ {
+  "ts": "2026-09-29T17:32:38+02:00",
+  "fonte": "europepmc",
+  "stringa": "query=(\"ferric derisomaltose\" OR \"iron isomaltoside\" OR \"isomaltoside 1000\" OR Monofer OR Monoferric OR Diafer) AND (\"ferric carboxymaltose\" OR carboxymaltose OR Ferinject OR Injectafer) NOT SRC:MED (campi di default di Europe PMC, fulltext OA compreso)",
+  "identificati": 38,
+  "nuovi": 38,
+  "gia_presenti": 0,
+  "duplicati": []
+ },
+ {
+  "ts": "2026-09-29T17:34:57+02:00",
+  "fonte": "consensus",
+  "stringa": "Consensus (MCP, piano gratuito, 10 risultati per query), 2026-09-29: q1 'randomized trial ferric derisomaltose versus ferric carboxymaltose'; q2 'iron isomaltoside 1000 compared with ferric carboxymaltose randomized hypophosphatemia'; q3 'Monofer versus Ferinject randomised controlled trial'. 30 risultati; importati solo quelli assenti dal DB e riconducibili a un DOI verificato su Crossref.",
+  "identificati": 4,
+  "nuovi": 4,
+  "gia_presenti": 0,
+  "duplicati": []
+ },
+ {
+  "ts": "2026-09-29T17:34:58+02:00",
+  "fonte": "altri-metodi",
+  "stringa": "Trovato il 2026-09-29 durante la verifica su Crossref dei DOI degli abstract identificati con Consensus (query.bibliographic per DOP89, Zoller): secondo risultato restituito. Non proviene da una ricerca sistematica.",
+  "identificati": 1,
+  "nuovi": 1,
+  "gia_presenti": 0,
+  "duplicati": []
+ },
+ {
+  "ts": "2026-09-29T17:45:23+02:00",
+  "fonte": "crossref",
+  "stringa": "query.bibliographic per 24 coppie FDI×FCM, stop dopo 200 consecutivi senza corrispondenze o a 2000; filtro locale titolo+abstract (≥1 termine FDI e ≥1 FCM). 'ferric derisomaltose ferric carboxymaltose': 200 scorsi, 0 utili; 'ferric derisomaltose carboxymaltose': 200 scorsi, 0 utili; 'ferric derisomaltose ferinject': 200 scorsi, 0 utili; 'ferric derisomaltose injectafer': 200 scorsi, 0 utili; 'iron isomaltoside ferric carboxymaltose': 200 scorsi, 0 utili; 'iron isomaltoside carboxymaltose': 200 scorsi, 0 utili; 'iron isomaltoside ferinject': 200 scorsi, 0 utili; 'iron isomaltoside injectafer': 200 scorsi, 0 utili; 'isomaltoside 1000 ferric carboxymaltose': 200 scorsi, 0 utili; 'isomaltoside 1000 carboxymaltose': 200 scorsi, 0 utili; 'isomaltoside 1000 ferinject': 200 scorsi, 0 utili; 'isomaltoside 1000 injectafer': 200 scorsi, 0 utili; 'monofer ferric carboxymaltose': 200 scorsi, 0 utili; 'monofer carboxymaltose': 1295 scorsi, 91 utili; 'monofer ferinject': 59 scorsi, 4 utili; 'monofer injectafer': 24 scorsi, 3 utili; 'monoferric ferric carboxymaltose': 200 scorsi, 0 utili; 'monoferric carboxymaltose': 1313 scorsi, 88 utili; 'monoferric ferinject': 79 scorsi, 3 utili; 'monoferric injectafer': 42 scorsi, 0 utili; 'diafer ferric carboxymaltose': 200 scorsi, 0 utili; 'diafer carboxymaltose': 1274 scorsi, 88 utili; 'diafer ferinject': 40 scorsi, 3 utili; 'diafer injectafer': 3 scorsi, 0 utili",
+  "identificati": 92,
+  "nuovi": 41,
+  "gia_presenti": 51,
+  "duplicati": [
+   "DOI-10.1001_jama.2019.22450 = 32016310",
+   "DOI-10.1007_s10534-015-9845-9 = 25801756",
+   "DOI-10.1007_s10534-026-00794-x = 41686372",
+   "DOI-10.1007_s11096-023-01548-2 = 37010731",
+   "DOI-10.1007_s11739-026-04470-3 = 42498915",
+   "DOI-10.1007_s12325-018-0827-5 = 30456520",
+   "DOI-10.1007_s12325-019-00990-x = 31154627",
+   "DOI-10.1007_s12325-019-00993-8 = 31154628",
+   "DOI-10.1007_s12325-022-02242-x = 35947351",
+   "DOI-10.1007_s12325-024-02987-7 = 39292421",
+   "DOI-10.1007_s40264-018-0769-5 = 30535629",
+   "DOI-10.1007_s40264-019-00814-5 = 30937852",
+   "DOI-10.1007_s40264-019-00815-4 = 30937851",
+   "DOI-10.1007_s40264-022-01216-w = 36068430",
+   "DOI-10.1016_j.ejim.2022.11.030 = 36462965",
+   "DOI-10.1016_j.ejps.2025.107265 = 40935025",
+   "DOI-10.1016_j.eurox.2023.100247 = 37885813",
+   "DOI-10.1042_bsr20231217 = 37671923",
+   "DOI-10.1055_s-0034-1384534 = 25050519",
+   "DOI-10.1080_13696998.2020.1745535 = 32208038",
+   "DOI-10.1080_13696998.2024.2313932 = 38391240",
+   "DOI-10.1080_13696998.2024.2444833 = 39704663",
+   "DOI-10.1080_13696998.2025.2487359 = 40167340",
+   "DOI-10.1080_13696998.2026.2692303 = 42464571",
+   "DOI-10.1080_17474086.2019.1575202 = 30689458",
+   "DOI-10.1080_17474086.2020.1709437 = 31928094",
+   "DOI-10.1080_17474086.2021.1883948 = 33511892",
+   "DOI-10.1101_2024.07.11.24310267 = EPMC-PPR879459",
+   "DOI-10.1101_2025.09.11.25335472 = EPMC-PPR1083820",
+   "DOI-10.1111_apt.15386 = 31264261",
+   "DOI-10.1111_bcp.13805 = 30393904",
+   "DOI-10.1111_bcp.14643 = 33188534",
+   "DOI-10.1111_imj.70100 = 40466719",
+   "DOI-10.1136_gutjnl-2022-327897 = 36343979",
+   "DOI-10.1136_gutjnl-2023-330061 = 37193585",
+   "DOI-10.1182_blood.2025031806 = 41849242",
+   "DOI-10.1186_s12916-020-01643-5 = 32654663",
+   "DOI-10.1210_clinem_dgab852 = 34850000",
+   "DOI-10.21203_rs.3.rs-7048209_v1 = EPMC-PPR1059460",
+   "DOI-10.2147_ceor.s284959 = 33442276",
+   "DOI-10.22541_au.167490910.02064054_v1 = EPMC-PPR609550",
+   "DOI-10.22541_au.172586589.98647225_v1 = EPMC-PPR1193679",
+   "DOI-10.3390_cancers18030416 = 41681887",
+   "DOI-10.3390_jcm13030758 = 38337452",
+   "DOI-10.3390_jcm14238393 = 41375693",
+   "DOI-10.3390_pharmaceutics14071408 = 35890303"
+  ]
+ },
+ {
+  "ts": "2026-09-29",
+  "fonte": "dedup-manuale",
+  "stringa": "deduplicazione per titolo dopo Crossref",
+  "duplicati": [
+   "DOI-10.1093_jcag_gwae059.216 = EPMC-PMC11807454"
+  ],
+  "identificati": 0,
+  "nuovi": -1,
+  "gia_presenti": 1
+ },
+ {
+  "ts": "2026-09-29T19:20:46+02:00",
+  "fonte": "citazioni",
+  "stringa": "Ricerca per citazione, 2026-09-29: riferimento 11 del PDF open access di IJRCOG 2025 (DOI-10.18203_2320-1770.ijrcog20250512), abstract EHA 2023 P1495 del trial i3R vs FCM; DOI verificato su Crossref.",
+  "identificati": 1,
+  "nuovi": 1,
+  "gia_presenti": 0,
+  "duplicati": []
+ }
+]

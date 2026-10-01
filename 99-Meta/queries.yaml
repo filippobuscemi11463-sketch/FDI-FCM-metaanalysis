@@ -1,0 +1,171 @@
+# Definizione delle query PubMed del vault FDI-FCM-Wiki.
+# Modificare QUI, mai nel codice. Ogni modifica va annotata in changelog (in fondo).
+
+finestra:
+  anni_indietro: 5          # finestra mobile: oggi - 5 anni
+  datetype: pdat            # pdat = data di pubblicazione
+
+# --- Blocchi riusabili, interpolati nelle query con {NOME} -------------------
+blocchi:
+  FDI: >-
+    ("ferric derisomaltose"[tiab] OR "iron isomaltoside"[tiab]
+     OR "isomaltoside 1000"[tiab] OR Monofer[tiab] OR Monoferric[tiab]
+     OR Diafer[tiab] OR "ferric derisomaltose"[nm])
+
+  FCM: >-
+    ("ferric carboxymaltose"[tiab] OR carboxymaltose[tiab]
+     OR Ferinject[tiab] OR Injectafer[tiab] OR "ferric carboxymaltose"[nm])
+
+  COMPARATORI: >-
+    (ferumoxytol[tiab] OR Feraheme[tiab] OR "iron sucrose"[tiab]
+     OR Venofer[tiab] OR "ferric gluconate"[tiab] OR "sodium ferric gluconate"[tiab]
+     OR "iron dextran"[tiab] OR CosmoFer[tiab] OR INFeD[tiab]
+     OR "ferric maltol"[tiab])
+
+  PK: >-
+    (pharmacokinetic*[tiab] OR "labile iron"[tiab] OR "non-transferrin-bound iron"[tiab]
+     OR NTBI[tiab] OR bioavailab*[tiab] OR clearance[tiab] OR "iron kinetics"[tiab]
+     OR "ferrokinetic*"[tiab] OR "area under the curve"[tiab] OR "half-life"[tiab]
+     OR biodistribution[tiab] OR "iron utilization"[tiab])
+
+  SICUREZZA: >-
+    (safety[tiab] OR "adverse event*"[tiab] OR "adverse drug reaction*"[tiab]
+     OR tolerability[tiab] OR toxicity[tiab] OR "side effect*"[tiab]
+     OR hypersensitivity[tiab] OR anaphyla*[tiab] OR "infusion reaction*"[tiab]
+     OR Fishbane[tiab] OR extravasation[tiab] OR "skin discolo*"[tiab])
+
+  FOSFATO: >-
+    (hypophosphat*[tiab] OR hypophosphataemi*[tiab] OR phosphate[tiab]
+     OR phosphataemia[tiab] OR phosphatemia[tiab] OR FGF23[tiab] OR "FGF-23"[tiab]
+     OR "fibroblast growth factor 23"[tiab] OR osteomalacia[tiab]
+     OR "bone mineral"[tiab] OR "1,25-dihydroxyvitamin D"[tiab])
+
+  FARMACOVIGILANZA: >-
+    (pharmacovigilance[tiab] OR FAERS[tiab] OR "FDA Adverse Event Reporting"[tiab]
+     OR EudraVigilance[tiab] OR VigiBase[tiab] OR "spontaneous report*"[tiab]
+     OR disproportionality[tiab] OR "reporting odds ratio"[tiab]
+     OR "signal detection"[tiab] OR "post-marketing surveillance"[tiab])
+
+# Publication type esclusi di default. NON includere letter[pt]: molti case
+# report di ADR sono pubblicati come lettere. Vedi CLAUDE.md §2.
+exclude_pubtypes:
+  - review
+  - systematic review
+  - meta-analysis
+  - editorial
+  - comment
+  - news
+  - guideline
+  - practice guideline
+  - published erratum
+  - retracted publication
+  # NB: "retraction of publication" NON è un publication type valido: PubMed lo
+  # scarta silenziosamente dalla traduzione, senza segnalare errore. Verificare
+  # sempre la query_translation quando si aggiunge un pubtype nuovo.
+  - biography
+  - historical article
+
+# Query che NON applicano l'esclusione dei publication type (il filtro
+# taglierebbe proprio ciò che cercano).
+no_exclude:
+  - Q8-case-report
+  - Q6-farmacovigilanza   # studi di disproporzionalita pubblicati insieme a una revisione di case report sono etichettati review[pt] (40402208)
+
+# --- Query ------------------------------------------------------------------
+query:
+  Q1-head-to-head:
+    priorita: 1
+    descrizione: Confronto diretto FDI vs FCM. Nucleo del vault.
+    term: "({FDI} AND {FCM})"
+
+  Q2-fdi-pk-sicurezza:
+    priorita: 1
+    descrizione: FDI, farmacocinetica e sicurezza.
+    term: "({FDI} AND ({PK} OR {SICUREZZA}))"
+
+  Q3-fcm-pk-sicurezza:
+    priorita: 1
+    descrizione: FCM, farmacocinetica e sicurezza.
+    term: "({FCM} AND ({PK} OR {SICUREZZA}))"
+
+  Q4-fosfato-fgf23:
+    priorita: 1
+    descrizione: Ipofosfatemia e asse FGF23/fosfato. Principale discriminante noto.
+    term: "(({FDI} OR {FCM}) AND {FOSFATO})"
+
+  Q5-ipersensibilita:
+    priorita: 2
+    descrizione: Reazioni da ipersensibilità, anafilassi, reazione di Fishbane.
+    term: >-
+      (({FDI} OR {FCM}) AND (hypersensitivity[tiab] OR anaphyla*[tiab]
+       OR "infusion reaction*"[tiab] OR Fishbane[tiab] OR urticaria[tiab]
+       OR "test dose"[tiab] OR "allergic reaction*"[tiab]))
+
+  Q6-farmacovigilanza:
+    priorita: 2
+    descrizione: >-
+      Studi su database di farmacovigilanza e segnali post-marketing. Il braccio
+      'ferro EV generico' serve perche molti studi FAERS/EudraVigilance non
+      nominano la singola molecola in titolo/abstract.
+    term: >-
+      ((({FDI} OR {FCM}) OR ("intravenous iron"[tiab] OR "iron products"[tiab]
+      OR "parenteral iron"[tiab] OR "Ferric Compounds"[mh]))
+      AND {FARMACOVIGILANZA})
+
+  Q7-comparatori:
+    priorita: 3
+    descrizione: FDI o FCM confrontati con altri ferri EV.
+    term: "(({FDI} OR {FCM}) AND {COMPARATORI})"
+
+  Q8-case-report:
+    priorita: 3
+    descrizione: >-
+      Case report e case series di eventi avversi. Nessuna esclusione di
+      publication type: il filtro taglierebbe il bersaglio.
+    term: >-
+      (({FDI} OR {FCM}) AND ("case reports"[pt] OR "case report"[ti]
+       OR "case series"[ti] OR "a case of"[ti]))
+
+  Q9-cardiovascolare:
+    priorita: 3
+    descrizione: >-
+      Segnali cardiovascolari e ipertensivi, spesso riportati come outcome
+      secondari in trial su scompenso cardiaco.
+    term: >-
+      (({FDI} OR {FCM}) AND (hypertension[tiab] OR "blood pressure"[tiab]
+       OR "cardiovascular event*"[tiab] OR arrhythm*[tiab] OR "QT"[tiab]
+       OR mortality[tiab] OR hospitalization[tiab]))
+
+# --- Query della meta-analisi -----------------------------------------------
+# Alimentano il corpus `meta` (99-Meta/protocollo-metanalisi.md). --all NON le
+# esegue: si chiamano per nome. Finché state.sqlite non distingue i corpora,
+# pubmed_harvest.py le accetta solo con --dry-run.
+query_meta:
+  M1-rct-head-to-head:
+    priorita: 1
+    descrizione: >-
+      RCT testa a testa FDI vs FCM per la meta-analisi. Protocollo §7 e §7.1:
+      nessun limite di data, nessun filtro di disegno, solo gli errata esclusi.
+    finestra: nessuna
+    exclude_pubtypes:
+      - published erratum
+    term: "({FDI} AND {FCM})"
+
+# --- Changelog delle query --------------------------------------------------
+# 2026-09-20  versione iniziale. Volumi verificati su PubMed live (finestra
+#             2021-09-20 →): Q1 = 50 record (nucleo 147, ~97 letteratura secondaria esclusa),
+#             Q4 = 104 record.
+#             letter[pt] deliberatamente NON escluso.
+# 2026-09-20  Q6 allargata al braccio 'ferro EV generico': con i soli nomi
+#             commerciali in [tiab] restituiva 1 record.
+# 2026-09-23  Q6 aggiunta a no_exclude. Controllo di completezza
+#             (99-Meta/log/completezza-2026-09-23.md): 40402208, analisi di
+#             disproporzionalita FAERS/VigiBase su FCM, e etichettata anche
+#             "Systematic Review" (contiene una revisione di case report) e
+#             review[pt] la escludeva da tutte le 5 query che la intercettano.
+#             Costo misurato: Q6 da 8 a 11 record. Togliere review/SR/MA da tutte
+#             le query costerebbe 92 record, nessun altro lavoro originale.
+# 2026-09-29  Aggiunta la sezione query_meta con M1-rct-head-to-head per la
+#             meta-analisi: `finestra: nessuna` (build_term non aggiunge limiti
+#             di data) ed exclude_pubtypes propri (solo errata). Le query Q1-Q9
+#             sono invariate: stesso term, stessa finestra, stesse esclusioni.

@@ -1,0 +1,127 @@
+[
+ {
+  "pmid": "DOI-10.1007_s40274-018-5527-5",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: notizia di farmacoeconomia (riduzione di infusioni e costi con il passaggio da Ferinject a Monofer), senza abstract, non è uno studio primario"
+ },
+ {
+  "pmid": "DOI-10.1007_s40278-017-33473-1",
+  "decisione": "incluso",
+  "motivo": "titolo che nomina FDI e FCM, senza abstract: il titolo non esclude con certezza la domanda, si decide sul fulltext"
+ },
+ {
+  "pmid": "DOI-10.1016_j.ekir.2026.103853",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: case report di ipofosfatemia con FCM vs FDI"
+ },
+ {
+  "pmid": "DOI-10.1016_j.jval.2018.09.2624",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: valutazione economica FDI vs FCM in IBD (Danimarca)"
+ },
+ {
+  "pmid": "DOI-10.1016_j.jval.2019.04.1829",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e confronto indiretto FDI vs FCM"
+ },
+ {
+  "pmid": "DOI-10.1016_j.jval.2020.04.1441",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi costo-efficacia (Regno Unito)"
+ },
+ {
+  "pmid": "DOI-10.1016_j.jval.2020.08.2017",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi economica nei paesi nordici"
+ },
+ {
+  "pmid": "DOI-10.1016_j.jval.2022.04.1447",
+  "decisione": "incluso",
+  "motivo": "punteggi di utilità dopo FDI vs FCM in IBD e IDA: probabile analisi secondaria dell'RCT PHOSPHARE-IBD, abstract non disponibile"
+ },
+ {
+  "pmid": "DOI-10.1016_j.jval.2022.09.1457",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi di modello su tempi di viaggio ed emissioni di CO2, non uno studio primario randomizzato"
+ },
+ {
+  "pmid": "DOI-10.1016_j.jval.2022.09.502",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi costo-utilità (Italia)"
+ },
+ {
+  "pmid": "DOI-10.1016_j.jval.2022.09.641",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi costo-utilità (Regno Unito)"
+ },
+ {
+  "pmid": "DOI-10.1016_j.jval.2023.09.384",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi di modello su tempi di viaggio ed emissioni di CO2 (Irlanda)"
+ },
+ {
+  "pmid": "DOI-10.1016_j.jval.2023.09.533",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi costo-utilità (Cina)"
+ },
+ {
+  "pmid": "DOI-10.1016_j.jval.2023.09.684",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi costo-utilità (Norvegia)"
+ },
+ {
+  "pmid": "DOI-10.1016_j.jval.2023.09.835",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi costo-utilità (Svezia)"
+ },
+ {
+  "pmid": "DOI-10.1016_j.jval.2024.03.368",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi costo-utilità (Regno Unito) con dati sulle fratture"
+ },
+ {
+  "pmid": "DOI-10.1016_j.jval.2024.10.596",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi costo-utilità (Paesi Bassi)"
+ },
+ {
+  "pmid": "DOI-10.1016_j.jval.2024.10.622",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi economica (Italia) con impatto delle fratture"
+ },
+ {
+  "pmid": "DOI-10.1016_j.jval.2025.09.402",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi costo-utilità (Regno Unito)"
+ },
+ {
+  "pmid": "DOI-10.1016_j.jval.2025.09.822",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: confronto di costi (Cina), modello economico"
+ },
+ {
+  "pmid": "DOI-10.1016_j.rpth.2026.106730",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica degli eventi avversi di FDI e FCM in gravidanza e chirurgia"
+ },
+ {
+  "pmid": "DOI-10.1016_j.rpth.2026.106749",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: modello di impatto sui costi (chirurgia addominale, Regno Unito)"
+ },
+ {
+  "pmid": "DOI-10.1093_ecco-jcc_jjab073.128",
+  "decisione": "incluso",
+  "motivo": "abstract congressuale di RCT di fase IV in doppio cieco, FDI vs FCM randomizzati 1:1 in adulti con IDA da IBD (NCT03466983)"
+ },
+ {
+  "pmid": "DOI-10.1093_ecco-jcc_jjad212.1180",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi costo-utilità in Finlandia basata su un modello di simulazione, anche se usa dati di RCT"
+ },
+ {
+  "pmid": "DOI-10.1093_ecco-jcc_jjae190.1309",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: studio retrospettivo con propensity matching su TriNetX, FCM contro altri ferri EV"
+ }
+]

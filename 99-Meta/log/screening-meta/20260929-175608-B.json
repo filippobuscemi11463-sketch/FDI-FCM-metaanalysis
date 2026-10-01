@@ -1,0 +1,127 @@
+[
+ {
+  "pmid": "DOI-10.1093_ecco-jcc_jjy222.847",
+  "decisione": "dubbio",
+  "motivo": "studio prospettico cluster-randomizzato in due centri, adulti con IBD: un centro tratta con FDI e l'altro con FCM. Non è chiaro se sia una randomizzazione diretta dei pazienti"
+ },
+ {
+  "pmid": "DOI-10.1093_ndt_gfac072.005",
+  "decisione": "incluso",
+  "motivo": "abstract congressuale di ExplorIRON-CKD, RCT in doppio cieco con randomizzazione a FDI o FCM in adulti con CKD e carenza marziale"
+ },
+ {
+  "pmid": "DOI-10.1093_ndt_gfac072.011",
+  "decisione": "incluso",
+  "motivo": "abstract congressuale di ExplorIRON-CKD, RCT FDI vs FCM randomizzato 1:1 in adulti con CKD, esiti di qualità di vita"
+ },
+ {
+  "pmid": "DOI-10.1093_ndt_gfac072.013",
+  "decisione": "incluso",
+  "motivo": "abstract congressuale di ExplorIRON-CKD, RCT FDI vs FCM randomizzato 1:1, esiti cardiovascolari"
+ },
+ {
+  "pmid": "DOI-10.1136_gutjnl-2025-bsg.411",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: audit di uno switch da Ferinject a FDI, senza randomizzazione"
+ },
+ {
+  "pmid": "DOI-10.1152_physiol.2023.38.s1.5733346",
+  "decisione": "escluso",
+  "motivo": "E4-non-umano: studio su modello murino di anemia sideropenica"
+ },
+ {
+  "pmid": "DOI-10.1182_blood-2018-99-114386",
+  "decisione": "incluso",
+  "motivo": "abstract congressuale di RCT HOMe AFers 1, donne adulte con IDA randomizzate a FCM o iron isomaltoside"
+ },
+ {
+  "pmid": "DOI-10.1182_blood-2020-134435",
+  "decisione": "incluso",
+  "motivo": "analisi post hoc dei dati aggregati di due RCT open-label randomizzati FDI vs FCM (studi PHOSPHARE)"
+ },
+ {
+  "pmid": "DOI-10.1182_blood-2021-148388",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica con meta-analisi (abstract congressuale) sulle reazioni di ipersensibilità. Annotare in fonti-di-riferimenti"
+ },
+ {
+  "pmid": "DOI-10.1182_blood-2022-159364",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica con confronto indiretto FCM vs iron isomaltoside. Annotare in fonti-di-riferimenti"
+ },
+ {
+  "pmid": "DOI-10.1182_blood-2022-165923",
+  "decisione": "incluso",
+  "motivo": "abstract congressuale senza testo: il titolo (FDI vs FCM, fatigue, IDA con IBD) non esclude un RCT testa a testa, da decidere sul fulltext"
+ },
+ {
+  "pmid": "DOI-10.1182_blood-2023-174508",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: analisi retrospettiva di cartelle cliniche, FCM vs FDI, Innsbruck"
+ },
+ {
+  "pmid": "DOI-10.1210_js.2019-or13-3",
+  "decisione": "incluso",
+  "motivo": "abstract congressuale di due RCT open-label identici (PHOSPHARE-IDA04/05), 245 adulti con IDA randomizzati 1:1 a iron isomaltoside o FCM"
+ },
+ {
+  "pmid": "DOI-10.17749_2070-4909_farmakoekonomika.2022.124",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi farmacoeconomica retrospettiva (costo-efficacia) Monofer vs Ferinject, modello economico"
+ },
+ {
+  "pmid": "DOI-10.18203_2320-1770.ijrcog20250512",
+  "decisione": "incluso",
+  "motivo": "studio prospettico randomizzato in 87 donne adulte con IDA, tre bracci 1:1:1 (iron sucrose, FCM, iron isomaltoside)"
+ },
+ {
+  "pmid": "DOI-10.2139_ssrn.6031398",
+  "decisione": "incluso",
+  "motivo": "preprint senza abstract: il titolo (confronto FCM vs FDI sulle fratture) non esclude con certezza un RCT, da decidere sul fulltext"
+ },
+ {
+  "pmid": "DOI-10.22541_au.159819170.08161798",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica con meta-analisi (preprint) sull'ipofosfatemia dopo FCM e iron isomaltoside. Annotare in fonti-di-riferimenti"
+ },
+ {
+  "pmid": "DOI-10.22541_au.159985897.74620769",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica con meta-analisi (preprint) sull'ipofosfatemia dopo FCM e iron isomaltoside. Annotare in fonti-di-riferimenti"
+ },
+ {
+  "pmid": "DOI-10.3410_f.736117505.793562435",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: raccomandazione di Faculty Opinions, commento senza dati propri"
+ },
+ {
+  "pmid": "DOI-10.4328_acam.22909",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: coorte retrospettiva monocentrica FDI vs FCM sulle reazioni di ipersensibilità"
+ },
+ {
+  "pmid": "EPMC-PMC10493729",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: indice di una rivista, nessun contenuto di ricerca"
+ },
+ {
+  "pmid": "EPMC-PMC10576948",
+  "decisione": "dubbio",
+  "motivo": "raccolta dei poster di UEG Week 2023 senza abstract: non è un singolo studio, ma può contenere un abstract di RCT FDI vs FCM. Decide l'utente"
+ },
+ {
+  "pmid": "EPMC-PMC10615330",
+  "decisione": "dubbio",
+  "motivo": "raccolta dei poster AMCP 2023 senza abstract: non è un singolo studio, ma può contenere un abstract di RCT FDI vs FCM (o analisi economiche). Decide l'utente"
+ },
+ {
+  "pmid": "EPMC-PMC11098658",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: selezione dell'editore di ESC Heart Failure, tipo review, non è uno studio primario"
+ },
+ {
+  "pmid": "EPMC-PMC11177578",
+  "decisione": "dubbio",
+  "motivo": "raccolta degli abstract del congresso EHA 2024 senza abstract: non è un singolo studio, ma può contenere un abstract di RCT FDI vs FCM. Decide l'utente"
+ }
+]

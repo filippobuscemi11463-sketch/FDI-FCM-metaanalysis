@@ -1,0 +1,127 @@
+[
+ {
+  "pmid": "35771891",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT pilota iron isomaltoside vs usual care preoperatoria, nessun braccio FCM"
+ },
+ {
+  "pmid": "35810949",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: network meta-analisi di RCT su ferro EV e orale nello scompenso cardiaco"
+ },
+ {
+  "pmid": "35896969",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: protocollo di RCT ferro EV vs placebo in CKD, un solo braccio di ferro EV"
+ },
+ {
+  "pmid": "36056175",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review narrativa su FCM in bambini e adolescenti"
+ },
+ {
+  "pmid": "36555659",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: analisi pooled di due RCT pilota di ferric derisomaltose 1000 mg in CKD, nessun braccio FCM"
+ },
+ {
+  "pmid": "36631901",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi sul ferro EV prima della cardiochirurgia"
+ },
+ {
+  "pmid": "36734033",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi sul ferro EV nello scompenso cardiaco"
+ },
+ {
+  "pmid": "36823953",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: meta-analisi aggiornata di RCT ferro EV vs standard/placebo nello scompenso"
+ },
+ {
+  "pmid": "36923182",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT iron sucrose vs ferrous sulfate in gravidanza"
+ },
+ {
+  "pmid": "36983640",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: studio prospettico monocentrico non randomizzato, FDI o FCM in IBD"
+ },
+ {
+  "pmid": "37348816",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT ferumoxytol vs ferrous sulfate in gravidanza"
+ },
+ {
+  "pmid": "37380069",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: meta-analisi e trial sequential analysis di RCT ferro EV vs usual care nello scompenso"
+ },
+ {
+  "pmid": "37486650",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT ferro EV vs ferro orale nell'anemia postpartum, un solo braccio EV (titolo; abstract assente)"
+ },
+ {
+  "pmid": "37632415",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: meta-analisi IPD di trial FCM vs placebo nello scompenso"
+ },
+ {
+  "pmid": "38069996",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica, meta-analisi e metaregressione del ferro EV nello scompenso"
+ },
+ {
+  "pmid": "38167004",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica degli esiti riportati in chirurgia maggiore"
+ },
+ {
+  "pmid": "38167523",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi ferro EV vs orale in gravidanza"
+ },
+ {
+  "pmid": "38357109",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: meta-analisi di RCT iron isomaltoside/ferumoxytol vs iron sucrose"
+ },
+ {
+  "pmid": "38628339",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi di RCT ferro EV nello scompenso"
+ },
+ {
+  "pmid": "38643833",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi ferro EV vs placebo in HFrEF"
+ },
+ {
+  "pmid": "39332997",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: meta-analisi di RCT ferro EV vs controllo in cardiochirurgia"
+ },
+ {
+  "pmid": "39408317",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review narrativa sul ferro nella chirurgia bariatrica"
+ },
+ {
+  "pmid": "39670550",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica Cochrane sul trattamento dell'anemia sideropenica postpartum"
+ },
+ {
+  "pmid": "39835061",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica su FCM nelle IBD"
+ },
+ {
+  "pmid": "39935027",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica sull'ipofosfatemia da FCM"
+ }
+]

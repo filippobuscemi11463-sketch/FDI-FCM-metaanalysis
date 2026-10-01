@@ -1,0 +1,127 @@
+[
+ {
+  "pmid": "24145678",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT PROCEED iron isomaltoside 1000 vs ferro solfato orale in IBD, nessun braccio FCM"
+ },
+ {
+  "pmid": "24170814",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: rationale del trial FIND-CKD, FCM a due target di ferritina vs ferro solfato orale, nessun braccio FDI"
+ },
+ {
+  "pmid": "24312441",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi dei trattamenti dell'anemia in IBD"
+ },
+ {
+  "pmid": "24513913",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: meta-analisi del ferro EV nella carenza funzionale in emodialisi"
+ },
+ {
+  "pmid": "24751822",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT PREFER FCM vs placebo salino in donne affaticate, nessun braccio FDI"
+ },
+ {
+  "pmid": "24780615",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT FCM vs ferro glicina solfato orale dopo protesi di ginocchio, nessun braccio FDI"
+ },
+ {
+  "pmid": "24839366",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT iron sucrose vs ferro orale in gravidanza, né FDI né FCM"
+ },
+ {
+  "pmid": "24995217",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: studio randomizzato iron sucrose vs ferro solfato orale in gravidanza, né FDI né FCM"
+ },
+ {
+  "pmid": "25176939",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT CONFIRM-HF FCM vs placebo nello scompenso cardiaco, nessun braccio FDI"
+ },
+ {
+  "pmid": "25428711",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review narrativa su ferric carboxymaltose (Drugs)"
+ },
+ {
+  "pmid": "25501922",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: analisi retrospettiva di un RCT FCM vs ferro solfato orale in IBD, nessun braccio FDI"
+ },
+ {
+  "pmid": "25545376",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT ferric maltol orale vs placebo in IBD, né FDI né FCM"
+ },
+ {
+  "pmid": "25572192",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi sulla sicurezza dei ferri EV"
+ },
+ {
+  "pmid": "25588587",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: protocollo di RCT iron isomaltoside 1000 vs standard medical care nell'emorragia post-partum, nessun braccio FCM"
+ },
+ {
+  "pmid": "25666998",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT iron sucrose vs placebo in scompenso cardiaco e CKD, né FDI né FCM"
+ },
+ {
+  "pmid": "25700159",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi degli effetti GI del ferro solfato"
+ },
+ {
+  "pmid": "25900643",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT PROTECT iron isomaltoside 1000 vs placebo in cardiochirurgia, nessun braccio FCM"
+ },
+ {
+  "pmid": "25925701",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT iron isomaltoside 1000 vs iron sucrose in emodialisi, nessun braccio FCM"
+ },
+ {
+  "pmid": "26250435",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT iron isomaltoside 1000 vs ferro orale in CKD non dialitica, nessun braccio FCM"
+ },
+ {
+  "pmid": "26692005",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e network meta-analysis su FCM e altre formulazioni"
+ },
+ {
+  "pmid": "26765407",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi ferro EV vs orale in IBD"
+ },
+ {
+  "pmid": "26817624",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT di un unico ferro EV vs usual care in chirurgia addominale; un solo braccio EV, quindi non può esserci confronto randomizzato FDI vs FCM"
+ },
+ {
+  "pmid": "26848182",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: trial randomizzato iron sucrose EV vs ferro solfato orale in IBD, né FDI né FCM"
+ },
+ {
+  "pmid": "26868063",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT FCM vs iron sucrose nel sanguinamento uterino anomalo, nessun braccio FDI"
+ },
+ {
+  "pmid": "26927900",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT PROFOUND iron isomaltoside vs ferro solfato orale in pazienti oncologici, nessun braccio FCM"
+ }
+]

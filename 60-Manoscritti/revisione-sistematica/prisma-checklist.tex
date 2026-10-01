@@ -1,0 +1,84 @@
+\documentclass[10pt,a4paper]{article}
+
+% PRISMA 2020 checklist for main.tex. Locations are section numbers, tables
+% and figures of main.tex (check them against main.aux after every change),
+% or repository paths. No numbers are reported here.
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[english]{babel}
+\usepackage[margin=1.8cm]{geometry}
+\usepackage{booktabs,longtable,array}
+\usepackage[hidelinks]{hyperref}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\begin{document}
+
+\begin{center}
+{\large\bfseries PRISMA 2020 checklist}\\[4pt]
+Ferric derisomaltose versus ferric carboxymaltose: a systematic review and meta-analysis of head-to-head randomised controlled trials\\[2pt]
+{\small Locations refer to sections, tables and figures of the manuscript; repository paths refer to \url{https://github.com/filippobuscemi11463-sketch/FDI-FCM-metaanalysis}.}
+\end{center}
+
+\small
+\begin{longtable}{L{2.6cm}L{0.7cm}L{7.6cm}L{5.2cm}}
+\toprule
+Section / topic & Item & Checklist item & Location \\
+\midrule
+\endhead
+\multicolumn{4}{l}{\textbf{TITLE}}\\
+Title & 1 & Identify the report as a systematic review. & Title \\
+\multicolumn{4}{l}{\textbf{ABSTRACT}}\\
+Abstract & 2 & See the PRISMA 2020 for Abstracts checklist. & Abstract (Background, Methods, Results, Conclusions, Registration; funding in Declarations) \\
+\multicolumn{4}{l}{\textbf{INTRODUCTION}}\\
+Rationale & 3 & Describe the rationale for the review in the context of existing knowledge. & Section 1, paragraphs 1--2 \\
+Objectives & 4 & Provide an explicit statement of the objective(s) or question(s) the review addresses. & Section 1, paragraph 3 \\
+\multicolumn{4}{l}{\textbf{METHODS}}\\
+Eligibility criteria & 5 & Specify the inclusion and exclusion criteria and how studies were grouped for the syntheses. & Section 2.2; grouping by outcome and threshold in 2.3 \\
+Information sources & 6 & Specify all databases, registers, websites, organisations, reference lists and other sources searched or consulted, with the date last searched. & Section 2.4 \\
+Search strategy & 7 & Present the full search strategies for all databases, registers and websites, including any filters and limits used. & Repository: \texttt{99-Meta/queries.yaml}, \texttt{99-Meta/log/ma-ricerca-2026-09-29.md}; unused strings in \texttt{99-Meta/ricerca-manuale-meta.md} \\
+Selection process & 8 & Methods used to decide whether a study met the inclusion criteria, including reviewers, independence and automation tools. & Sections 2.5 and 2.10; criteria in \texttt{99-Meta/criteri-screening-meta.md} \\
+Data collection process & 9 & Methods used to collect data, including reviewers, independence, confirmation of data and automation tools. & Sections 2.6 and 2.10; codebook \texttt{99-Meta/estrazione-meta.md} \\
+Data items & 10a & List and define all outcomes for which data were sought. & Section 2.3 \\
+ & 10b & List and define all other variables for which data were sought. & Section 2.6; Table 2; codebook \texttt{99-Meta/estrazione-meta.md} \\
+Study risk of bias assessment & 11 & Methods used to assess risk of bias, including tool, reviewers, independence and automation tools. & Sections 2.7 and 2.10 \\
+Effect measures & 12 & Specify the effect measure(s) used for each outcome. & Section 2.8 (dichotomous and continuous outcomes) \\
+Synthesis methods & 13a & Processes used to decide which studies were eligible for each synthesis. & Section 2.3 (threshold rule); Section 2.8 (pooling rules) \\
+ & 13b & Methods required to prepare the data for synthesis. & Sections 2.6 and 2.8 (zero cells, no derivation of counts from percentages) \\
+ & 13c & Methods used to tabulate or visually display results. & Tables 2--4; Figure 2 \\
+ & 13d & Methods used to synthesise results and rationale; model, heterogeneity methods and software. & Section 2.8 \\
+ & 13e & Methods used to explore possible causes of heterogeneity. & Section 2.8 (Subgroups) \\
+ & 13f & Sensitivity analyses conducted. & Section 2.8 (Sensitivity analyses) \\
+Reporting bias assessment & 14 & Methods used to assess risk of bias due to missing results. & Section 2.8 (Publication bias) \\
+Certainty assessment & 15 & Methods used to assess certainty in the body of evidence. & Section 2.9 \\
+\multicolumn{4}{l}{\textbf{RESULTS}}\\
+Study selection & 16a & Results of the search and selection process, ideally with a flow diagram. & Section 3.1; Figure 1 \\
+ & 16b & Cite studies that might appear to meet the inclusion criteria but were excluded, and explain why. & Section 3.1 (excluded reports by reason, awaiting classification); per-record decisions in \texttt{99-Meta/db/record-meta.csv}; evidence sheets in \texttt{99-Meta/log/eleggibilita/} \\
+Study characteristics & 17 & Cite each included study and present its characteristics. & Section 3.2; Table 2 \\
+Risk of bias in studies & 18 & Present assessments of risk of bias for each included study. & Section 3.3; Table 3; signalling questions in \texttt{30-Dati/ma-rob2.csv} \\
+Results of individual studies & 19 & For all outcomes, present summary statistics for each group and an effect estimate with its precision for each study. & Figure 2; Sections 3.4--3.6; arm-level rows in \texttt{30-Dati/ma-bracci.csv}; all forest plots in \texttt{50-Metanalisi/output/} \\
+Results of syntheses & 20a & Briefly summarise characteristics and risk of bias among contributing studies for each synthesis. & Sections 3.3--3.6 \\
+ & 20b & Present results of all statistical syntheses with precision and heterogeneity measures. & Sections 3.4--3.6; Figure 2; Table 4 \\
+ & 20c & Present results of all investigations of possible causes of heterogeneity. & Section 3.4 (subgroups) \\
+ & 20d & Present results of all sensitivity analyses. & Sections 3.4--3.5; complete output in \texttt{50-Metanalisi/output/} \\
+Reporting biases & 21 & Present assessments of risk of bias due to missing results for each synthesis. & Section 3.7 \\
+Certainty of evidence & 22 & Present assessments of certainty in the body of evidence for each outcome. & Section 3.8; Table 4; \texttt{50-Metanalisi/grade.md} \\
+\multicolumn{4}{l}{\textbf{DISCUSSION}}\\
+Discussion & 23a & General interpretation of the results in the context of other evidence. & Sections 4.1--4.2 \\
+ & 23b & Limitations of the evidence included in the review. & Section 4.3 (Limitations) \\
+ & 23c & Limitations of the review processes used. & Section 4.3 (Limitations) \\
+ & 23d & Implications for practice, policy and future research. & Section 4.4 \\
+\multicolumn{4}{l}{\textbf{OTHER INFORMATION}}\\
+Registration and protocol & 24a & Registration information, or a statement that the review was not registered. & Abstract (Registration); Section 2.1 (not registered) \\
+ & 24b & Where the review protocol can be accessed, or a statement that a protocol was not prepared. & Section 2.1; frozen version \texttt{99-Meta/protocollo-metanalisi-v1.0-fc19a3a.md}; current version with deviation log \texttt{99-Meta/protocollo-metanalisi.md} \\
+ & 24c & Describe and explain any amendments to information provided at registration or in the protocol. & Table 1; deviation log in \texttt{99-Meta/protocollo-metanalisi.md}, section 15 \\
+Support & 25 & Sources of financial or non-financial support and the role of funders or sponsors. & Declarations (Funding) \\
+Competing interests & 26 & Declare any competing interests of review authors. & Declarations (Competing interests) \\
+Availability of data, code and other materials & 27 & Report which materials are publicly available and where they can be found. & Declarations (Data and code availability) \\
+\bottomrule
+\end{longtable}
+
+\noindent{\footnotesize From: Page MJ, McKenzie JE, Bossuyt PM, et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ 2021;372:n71. doi:10.1136/bmj.n71. Item wording abridged.}
+
+\end{document}

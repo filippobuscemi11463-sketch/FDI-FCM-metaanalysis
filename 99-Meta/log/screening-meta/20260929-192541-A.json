@@ -1,0 +1,127 @@
+[
+ {
+  "pmid": "20648931",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review narrativa sulle preparazioni di ferro EV"
+ },
+ {
+  "pmid": "20929915",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT FCM vs ferro solfato orale in ND-CKD, nessun braccio FDI"
+ },
+ {
+  "pmid": "21699794",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT FERGIcor FCM vs iron sucrose in IBD, nessun braccio FDI"
+ },
+ {
+  "pmid": "21921645",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: stima di costo-efficacia del ferro EV aggiunto a ESA basata su meta-analisi e RCT pubblicati"
+ },
+ {
+  "pmid": "21942989",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: meta-analisi di trial su FCM vs ferro orale, placebo e iron sucrose"
+ },
+ {
+  "pmid": "21978726",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT FCM vs placebo nella sindrome delle gambe senza riposo, nessun braccio FDI"
+ },
+ {
+  "pmid": "22297124",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: sottoanalisi di FAIR-HF, FCM vs placebo, nessun braccio FDI"
+ },
+ {
+  "pmid": "22348897",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi del ferro nello scompenso cardiaco"
+ },
+ {
+  "pmid": "22405161",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi ferro EV vs orale in IBD"
+ },
+ {
+  "pmid": "22419860",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: studio PK crossover di due dosi di iron isomaltoside 1000 in IBD, nessun braccio FCM"
+ },
+ {
+  "pmid": "22575608",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review su anemia oncologica e ferro EV"
+ },
+ {
+  "pmid": "22940889",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT iron sucrose vs ferro fumarato orale vs placebo in cardiochirurgia, né FDI né FCM"
+ },
+ {
+  "pmid": "22997572",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: due RCT FCM 750 mg vs standard medical care, nessun braccio FDI randomizzato"
+ },
+ {
+  "pmid": "23078888",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT FCM vs placebo per prevenzione della recidiva di anemia in IBD, nessun braccio FDI"
+ },
+ {
+  "pmid": "23222534",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT FCM vs standard medical care (ferro orale, iron sucrose, ferric gluconate) in CKD, nessun braccio FDI"
+ },
+ {
+  "pmid": "23293433",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT iron sucrose vs ferro orale in gravidanza, né FDI né FCM"
+ },
+ {
+  "pmid": "23505057",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT FCM vs iron dextran su FGF23 e fosfato, nessun braccio FDI"
+ },
+ {
+  "pmid": "23644823",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT thromboVIT FCM vs placebo in IBD con trombocitosi, nessun braccio FDI"
+ },
+ {
+  "pmid": "23680589",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT IRON-HF iron sucrose vs ferro orale vs placebo, né FDI né FCM"
+ },
+ {
+  "pmid": "23772856",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT FCM vs ferro orale e vs ferro EV standard of care, nessun braccio FDI"
+ },
+ {
+  "pmid": "23787722",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: sottoanalisi di FAIR-HF, FCM vs placebo, nessun braccio FDI"
+ },
+ {
+  "pmid": "23950195",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi di RCT di ferro EV vs orale o nessun ferro"
+ },
+ {
+  "pmid": "23963731",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT REPAIR-IDA FCM vs iron sucrose in NDD-CKD, nessun braccio FDI"
+ },
+ {
+  "pmid": "24069536",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT FCM vs iron dextran, nessun braccio FDI"
+ },
+ {
+  "pmid": "24135037",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica su eritropoietina e ferro EV nel perioperatorio"
+ }
+]

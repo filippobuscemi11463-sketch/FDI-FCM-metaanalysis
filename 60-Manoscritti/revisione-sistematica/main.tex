@@ -1,0 +1,384 @@
+\documentclass[11pt,a4paper]{article}
+
+% Manuscript of the systematic review with meta-analysis, FDI vs FCM.
+% RULE: no number is typed by hand. Every number comes from \val{key}, defined
+% in generati/numeri.tex, which scripts/manoscritto_meta.py generates from
+% state.sqlite, 30-Dati/ and 50-Metanalisi/. Tables in generati/ are generated too.
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[english]{babel}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage{setspace}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs,tabularx,array,longtable}
+\usepackage{pdflscape}
+\usepackage[table]{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,calc}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf}
+\usepackage{enumitem}
+\setlist{nosep,leftmargin=*}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{lineno}
+\usepackage[hidelinks]{hyperref}
+\usepackage{doi}
+
+\graphicspath{{../../50-Metanalisi/output/forest/}}
+\input{generati/numeri.tex}
+\input{generati/tab-caratteristiche.tex}
+\input{generati/tab-rob.tex}
+\input{generati/tab-sof.tex}
+\newcommand{\val}[1]{\ifcsname val@#1\endcsname\csname val@#1\endcsname\else\textbf{\textcolor{red}{??#1??}}\fi}
+\usepackage{soul}\sethlcolor{yellow!40}
+\newcommand{\confirm}[1]{\hl{#1}}
+\newcommand{\robL}{\textcolor{green!55!black}{$\bullet$}}
+\newcommand{\robS}{\textcolor{orange!90!black}{$\blacktriangle$}}
+\newcommand{\robH}{\textcolor{red!80!black}{$\blacksquare$}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\onehalfspacing
+
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries Ferric derisomaltose versus ferric carboxymaltose: a systematic review and meta-analysis of head-to-head randomised controlled trials on hypophosphataemia, osteomalacia, hypersensitivity and cardiovascular events\par}
+\vspace{1.2em}
+{\large Filippo Buscemi\textsuperscript{1,*} \quad Primo Buscemi\textsuperscript{2}\par}
+\vspace{0.8em}
+{\small
+\textsuperscript{1} UOC Medicina Trasfusionale, Presidio Ospedaliero ``San Giovanni di Dio'', ASP di Agrigento, Agrigento, Italy\\
+\textsuperscript{2} SOC Coordinamento Sanitario Servizi Zona Sud-Est, Azienda USL Toscana Centro, Firenze, Italy\\
+\textsuperscript{*} Corresponding author: \href{mailto:filippo.buscemi@aspag.it}{filippo.buscemi@aspag.it}\par}
+\end{center}
+
+\linenumbers
+
+% ======================================================================= ABSTRACT
+\begin{abstract}
+\noindent\textbf{Background.} Ferric derisomaltose (FDI) and ferric carboxymaltose (FCM) are high-dose intravenous iron formulations thought to differ mainly in the risk of hypophosphataemia. Previous syntheses relied mainly on network, indirect or study-level comparisons. We synthesised only randomised trials that compared the two drugs directly.
+
+\noindent\textbf{Methods.} We searched PubMed, Europe PMC, Crossref, ClinicalTrials.gov, the EU Clinical Trials Register and CTIS without date limits, and did citation searching. Embase, Cochrane CENTRAL and WHO ICTRP were not searched. We included randomised controlled trials in adults with iron deficiency that randomised participants directly between an FDI arm and an FCM arm. Title and abstract screening, extraction, risk-of-bias and certainty assessments were done in duplicate by two independent large-language-model agents. An author decided every discordance and every eligibility decision, on proposals prepared by a single agent, and verified every data row selected for analysis; concordant exclusions at title and abstract, and concordant risk-of-bias and GRADE judgements, were not reviewed. The primary outcome was hypophosphataemia (serum phosphate $<$0.65~mmol/L) within the primary window (day~35~$\pm$7). We used random-effects (REML with Hartung--Knapp--Sidik--Jonkman), Mantel--Haenszel or Peto models, RoB~2 and GRADE.
+
+\noindent\textbf{Results.} We included \val{prisma.trials.included} trials (\val{prisma.reports.included} reports; \val{trials.rand.fdi} participants randomised to FDI and \val{trials.rand.fcm} to FCM). FDI may reduce the incidence of hypophosphataemia compared with FCM (\val{P1.primaria.RR.k} trials, \val{P1.primaria.RR.partecipanti} participants; risk ratio \val{P1.primaria.RR.stima}, 95\% CI \val{P1.primaria.RR.ic_inf} to \val{P1.primaria.RR.ic_sup}; \val{P1.primaria.RR.rischio_fcm_1000} per 1000 with FCM versus \val{P1.primaria.RR.rischio_fdi_1000} with FDI; \val{grade.P1.primaria}-certainty evidence). No participant receiving FDI had severe hypophosphataemia in the trials reporting it (Peto odds ratio \val{S1.primaria.OR.stima}, \val{S1.primaria.OR.ic_inf} to \val{S1.primaria.OR.ic_sup}; \val{grade.S1.primaria} certainty), and FDI may reduce hypophosphataemia persisting at the end of the primary window (risk ratio \val{S3.primaria.RR.stima}, \val{S3.primaria.RR.ic_inf} to \val{S3.primaria.RR.ic_sup}; \val{grade.S3.primaria} certainty). Evidence on serious or severe hypersensitivity (risk ratio \val{S6.primaria.RR.stima}, \val{S6.primaria.RR.ic_inf} to \val{S6.primaria.RR.ic_sup}), any hypersensitivity or infusion reaction, and serious cardiovascular adverse events was very uncertain. No trial reported osteomalacia, fractures or adjudicated cardiovascular events. Of \val{rob.n} outcome-level risk-of-bias judgements, \val{rob.some} had some concerns and \val{rob.high} were at high risk. All trials contributing to the pooled estimates for hypophosphataemia, persistent hypophosphataemia and change in phosphate were funded by the manufacturer of FDI.
+
+\noindent\textbf{Conclusions.} In head-to-head randomised trials, FDI may reduce the incidence of hypophosphataemia compared with FCM. Evidence on hypersensitivity and cardiovascular safety is very uncertain, and no head-to-head trial has reported osteomalacia or fractures.
+
+\noindent\textbf{Registration.} The protocol was frozen in the project's version-controlled repository (commit fc19a3a) before the systematic searches and arm-level data extraction, and is publicly available; it was not registered in a review registry.
+\end{abstract}
+
+% ======================================================================= INTRODUCTION
+\section{Introduction}
+
+Ferric derisomaltose (FDI, formerly iron isomaltoside~1000) and ferric carboxymaltose (FCM) allow the replacement of large iron deficits in one or two infusions. Their comparison has centred on hypophosphataemia, which the phosphate-focused trials attributed to a rise in intact fibroblast growth factor~23 after FCM~\cite{R32016310}. Other safety questions concern hypersensitivity reactions and cardiovascular events.
+
+Several syntheses have addressed these questions. Most pooled evidence through network meta-analysis or indirect comparison~\cite{Bellos2020,Pollock2022,Divers2026,Azevedo2026}, or through study-level comparisons~\cite{Schaefer2021,Kennedy2023}. Indirect estimates rest on the assumption that trials against different comparators are exchangeable. That assumption is hard to defend here, because the populations, doses and definitions of hypophosphataemia vary widely between studies.
+
+We therefore restricted this review to randomised controlled trials that compared FDI and FCM directly. The outcomes were hypophosphataemia, osteomalacia and fractures, hypersensitivity, and cardiovascular events. The review was run in a version-controlled evidence repository in which every aggregate number is produced by a script from verified arm-level rows. The methods of that repository will be described in a separate report (in preparation).
+
+% ======================================================================= METHODS
+\section{Methods}
+
+\subsection{Protocol, registration and reporting}
+The protocol was written in the project repository and frozen at commit \texttt{fc19a3a} (29~September~2026). It was frozen before the systematic searches, before arm-level data extraction and before any aggregate calculation; before freezing, a dry run of the PubMed query had been done to check that it carried no date limit. The repository, however, already contained unstructured notes and extractions that were not organised by arm for some candidate trials, and part of the PubMed records were already in it; the choice of the primary threshold was motivated with those data. The protocol was not registered in a review registry such as PROSPERO or OSF Registries; the frozen version, the current version with its deviation log and the commit history of the review files are in the public data repository (Declarations). All deviations from the frozen protocol are listed in Table~\ref{tab:deviations}. Reporting follows PRISMA~2020~\cite{Page2021}.
+
+\subsection{Eligibility criteria}
+We included randomised controlled trials that randomised adults ($\ge$18~years) with iron deficiency, with or without anaemia and of any cause, directly between an FDI arm and an FCM arm, at any dose and schedule. In multi-arm trials, only the FDI and FCM arms were used. Mixed adult--paediatric trials were eligible if adult data were separable or if minors were fewer than 10\% of those randomised. We excluded:
+\begin{itemize}
+\item non-randomised and quasi-randomised studies;
+\item indirect comparisons;
+\item open-label extensions without randomisation;
+\item trials that co-administered another intravenous iron in the same arm.
+\end{itemize}
+Crossover trials were eligible using the first period only; a crossover trial without separately reported first-period data would be listed and not pooled. There were no limits on date, language or publication status: conference abstracts and results posted in trial registers were eligible if they reported arm-level data.
+
+\subsection{Outcomes}
+The primary outcome was the incidence of hypophosphataemia, defined as serum phosphate $<$0.65~mmol/L ($<$2.0~mg/dL) at any measurement within the primary window. The primary window ran from the first dose to day~35~($\pm$7), or to the trial's primary time point if it fell between days~28 and~42.
+
+Secondary outcomes were:
+\begin{itemize}
+\item severe hypophosphataemia ($\le$0.32~mmol/L);
+\item hypophosphataemia at a wide threshold ($<$0.80~mmol/L, a threshold of 0.81~mmol/L being grouped here);
+\item persistent hypophosphataemia ($<$0.65~mmol/L at the last visit of the primary window);
+\item change in serum phosphate from baseline to day~35;
+\item osteomalacia or fragility fractures;
+\item serious or severe hypersensitivity;
+\item any hypersensitivity or infusion reaction;
+\item cardiovascular events: adjudicated events as the main outcome, and serious adverse events in the MedDRA \emph{Cardiac disorders} and \emph{Vascular disorders} system organ classes as a sensitivity outcome.
+\end{itemize}
+A trial whose phosphate threshold differed from the protocol thresholds entered the outcome whose protocol threshold was the nearest one not above the trial's threshold (for example, \val{soglia.S2.primaria.nct03957057}~mmol/L entered the outcome at 0.80~mmol/L); a trial whose threshold was below every protocol threshold of an outcome did not enter it. The difference was tested in sensitivity analyses. Events over the longest available follow-up were analysed separately as an extended window.
+
+\subsection{Information sources and search}
+We searched the following sources on 29~September~2026 with no date limit:
+\begin{itemize}
+\item PubMed/MEDLINE, with a query combining all synonyms of both drugs (including the former name iron isomaltoside) and no design filter;
+\item Europe PMC, for preprints and records not in MEDLINE;
+\item Crossref, for conference abstracts published in journal supplements;
+\item ClinicalTrials.gov (API v2), the EU Clinical Trials Register and the EU CTIS.
+\end{itemize}
+Embase, Cochrane CENTRAL and WHO ICTRP, planned in the protocol, were not searched; the search strings prepared for them are in the repository. As other methods we used:
+\begin{itemize}
+\item a supplementary search in the Consensus engine;
+\item automated citation searching through the Europe PMC API: the references of the reports included at the time of the search and of related reviews, and the citations of those included reports; one conference abstract was added by hand from the reference list of an included report.
+\end{itemize}
+The citation search used a widened filter: both drugs, or one drug or intravenous iron in a randomised record. We adopted this filter after finding that the published protocol of one included trial did not name either drug in its title or abstract. Full search strings and dates are in the repository.
+
+\subsection{Selection process}
+Records were de-duplicated by PMID, DOI and registry number, and one duplicate was merged by hand on the title. Titles and abstracts were screened in duplicate by two independent large-language-model agents (Claude, Anthropic) applying written operational criteria, blind to each other's decisions. Records that both agents excluded were excluded without author review; every discordant or uncertain record was decided by an author. Agreement was assessed with Cohen's kappa~\cite{Cohen1960} across three categories (include, exclude, uncertain). Full texts, registry records and conference abstracts were then assessed for eligibility; every eligibility decision was taken by an author, who read structured evidence sheets prepared by a single agent run and approved or amended its proposals, in blocks. Reports were grouped into trials by registry number or, for unregistered trials, by an identifier based on the primary report.
+
+\subsection{Data collection}
+Two independent agents extracted arm-level data for each trial with a written codebook. Every source of the trial was used: articles, supplements, registry results and abstracts. A script compared the two extractions cell by cell, and an author resolved every discordance. An author then checked against the source text every row selected for analysis (\val{rows.used} of \val{rows.total} extracted rows). The preferred analysis population was randomised participants who received at least one dose. We never derived event counts from percentages. Zero event counts were taken only when the source stated them, including from complete lists of serious adverse events in registries and from explicit statements that no serious adverse events occurred.
+
+\subsection{Risk of bias}
+We assessed risk of bias with RoB~2~\cite{Sterne2019} for each outcome of each trial, for the effect of assignment. Two independent agents answered the signalling questions, quoting the supporting text and its location. A script checked that each domain judgement followed the RoB~2 algorithm from the answers, allowing departures only with a written justification, and an author resolved discordances. The overall judgement was the worst domain judgement, or high when four or more domains had some concerns and the report was internally inconsistent; this rule was added to the assessment guide while resolving a discordance on the trial to which it was then applied (Table~\ref{tab:deviations}). Concordant judgements were accepted without author review.
+
+\subsection{Synthesis methods}
+All aggregate numbers were produced by a single R script (R~\val{run.R}, metafor~\val{run.metafor}~\cite{Viechtbauer2010}, lme4~\val{run.lme4}~\cite{Bates2015}). The script reads only the verified arm-level rows, together with the trial characteristics and risk-of-bias judgements used in sensitivity analyses and the subgroup classification. The run reported here corresponds to commit \texttt{\val{run.commit}} of the working repository and input checksum \texttt{\val{run.sha}}; the public data repository reproduces the same outputs. Effects are expressed for FDI relative to FCM.
+
+\textbf{Dichotomous outcomes.} The main model for phosphate outcomes was a random-effects model on the log risk ratio, with REML and the Hartung--Knapp--Sidik--Jonkman correction~\cite{IntHout2014}, without continuity correction. With fewer than five trials, a Mantel--Haenszel fixed-effect estimate~\cite{Mantel1959} is shown alongside. Double-zero trials were excluded from relative measures and kept in risk differences. Otherwise, zero cells were handled as follows:
+\begin{itemize}
+\item when a trial with events had an arm with no events (or with all participants having the event), which would remove it from the REML model, the Mantel--Haenszel model became the main model;
+\item when one arm had no events in any trial, the risk ratio is undefined, and the main measures were the Peto odds ratio and the Mantel--Haenszel risk difference;
+\item when fewer than two trials had events, only the Mantel--Haenszel risk difference, which keeps double-zero trials, was pooled (a rule not in the protocol); when no trial had events, no effect was estimated.
+\end{itemize}
+For rare outcomes (hypersensitivity and cardiovascular events), the main model was the Mantel--Haenszel risk ratio, with the risk difference alongside. The Peto odds ratio and, with at least three trials with events (the protocol required three trials), a generalised linear mixed model were sensitivity analyses~\cite{Bradburn2007}.
+
+\textbf{Pooling rules.} An outcome was pooled when at least two trials reported it. For osteomalacia and serious or severe hypersensitivity, at least two trials also had to report at least one event. 
+\textbf{Continuous outcome.} The change in phosphate was pooled as a mean difference in mmol/L. Values at day~35 would have been pooled with changes from baseline, with a sensitivity analysis restricted to changes; only changes were available for pooling.
+
+\textbf{Heterogeneity and absolute effects.} We report $\tau^2$, $I^2$ and $Q$, and a prediction interval with at least three trials. Absolute effects were computed from the crude pooled risk in the FCM arms of the trials in each model.
+
+\textbf{Sensitivity analyses.} The prespecified sensitivity analyses were:
+\begin{itemize}
+\item trials at low overall risk of bias only;
+\item fixed-effect versus random-effects models;
+\item trials with the exact protocol threshold only;
+\item exclusion of trials with manufacturer funding or declared manufacturer involvement;
+\item exclusion of data available only from registers or abstracts;
+\item a continuity correction of 0.5.
+\end{itemize}
+The planned sensitivity analysis on the phosphate nadir was not performed, because nadir values were not extracted.
+
+\textbf{Subgroups.} Exploratory subgroups by population and by dose schedule were analysed. For dose schedule we compared single-dose FDI against split-dose FCM with the same schedule in both arms; the protocol had specified equivalent cumulative doses, which the extracted data did not allow. Subgroups were analysed with the main model when at least two subgroups had at least two trials each, with a test of difference between subgroup estimates. The classification of trials is in the repository.
+
+\textbf{Publication bias.} Funnel plots were not used, because no outcome had ten or more trials. Instead, we compared the registered head-to-head trials identified in ClinicalTrials.gov and the EU Clinical Trials Register with their publications; the protocol had planned this for trials registered as completed, including ICTRP, which was not searched.
+
+\subsection{Certainty of evidence}
+We rated certainty with GRADE~\cite{Guyatt2008}, using a minimally contextualised approach with the null effect as threshold. Imprecision took the optimal information size into account~\cite{Guyatt2011imprecision}. Outcomes without a single pooled estimate were rated narratively~\cite{Murad2017}. Two independent agents rated each outcome; the agent resolved the four discordances, and an author confirmed them after the manuscript was drafted (Table~\ref{tab:deviations}); concordant ratings were accepted without author review. Summary statements follow the GRADE wording for informative statements~\cite{Santesso2020}.
+
+\subsection{Use of large language models}
+Agents made the first pass of every step. Title and abstract screening, extraction, risk of bias and GRADE used two independent runs; the eligibility evidence sheets were prepared by a single run. Concordant exclusions at title and abstract screening, and concordant risk-of-bias and GRADE judgements, were final without author review. All other final decisions were taken by an author: discordant and uncertain screening records, eligibility (approving or amending the agent's proposals), every data row selected for analysis, and discordant risk-of-bias and GRADE judgements (the GRADE ones after the manuscript was drafted). No agent produced an aggregate number. Agent outputs, or summaries of them, are archived in the repository together with the scripts that compared them.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Deviations from the frozen protocol (commit \texttt{fc19a3a}).}\label{tab:deviations}
+\begin{tabularx}{\textwidth}{L{3.0cm}Y L{3.2cm}}
+\toprule
+Topic & Deviation & Decided \\
+\midrule
+Screening & Title/abstract screening in duplicate by two agents instead of single; concordant exclusions final & Before screening \\
+Screening criteria & Written operational criteria and a dedicated screening agent; criteria revised twice (after the PubMed screening; rule for conference volumes at eligibility) & Before screening; revisions during selection \\
+Eligibility & Evidence sheets prepared by a single agent run; decisions approved by an author in blocks & During selection \\
+Awaiting classification & Registered trials without results kept as ``awaiting classification'' & Before screening \\
+Sources not searched & Embase, CENTRAL and WHO ICTRP not searched; publication-bias rating left as provisional in GRADE & -- \\
+Sources & Crossref added as a systematic source for conference abstracts (relevance ranking not guaranteed stable over time) & After screening the PubMed records, before screening the other sources \\
+Citation search & Automated through the Europe PMC API instead of manual; widened filter (one drug or intravenous iron in a randomised record) & After one included protocol was missed by the main filter \\
+Extraction & Written codebook, a second file for trial characteristics and service columns & Before extraction \\
+Change in phosphate & Main time point fixed at day~35, with the nadir as a sensitivity analysis; the nadir analysis was then not performed (nadir not extracted) & Day~35 before any calculation; nadir recorded as not performed after the analysis \\
+Zero cells & Mantel--Haenszel as main model when zero cells remove trials from REML; Peto odds ratio and risk difference when one arm has no events & \textbf{After seeing which models were estimable} \\
+Pooling rule & Script corrected to the protocol (it required two trials with events for every outcome); risk difference as the main measure when fewer than two trials have events, a new rule; no estimate when no trial has events & \textbf{After seeing the results} \\
+Threshold rule & ExplorIRON-CKD removed from severe hypophosphataemia, its threshold being below every protocol threshold of that outcome (application of the protocol) & \textbf{After seeing the results} \\
+Any hypersensitivity & Not pooled, because of different definitions and effects in opposite directions & \textbf{After seeing the results} \\
+Subgroups & Omitted in the first run; dose subgroup defined as single-dose FDI against split-dose FCM versus the same schedule (protocol: equivalent cumulative doses); classification file read by the script, written after the data were known & \textbf{After seeing the results} \\
+Publication bias & Registered versus published trials compared descriptively (no funnel plot), from the registries in the database and not restricted to trials registered as completed & \textbf{After seeing the results} \\
+Assessment guides & Written guides for RoB~2 and GRADE (null-threshold imprecision, optimal information size, provisional publication-bias rating); duplicate GRADE ratings; RoB~2 guide and extraction codebook revised twice; the rule for a high overall judgement by accumulation, and the codebook rule on zeros from complete adverse-event lists, were written on trials to which they were then applied & Before each assessment; revisions during the assessment \\
+Software & Package versions recorded at every run instead of a lock file & Before analysis, after extraction \\
+GLMM & Fitted with at least three trials with events (protocol: at least three trials) & Before analysis, after extraction (event counts known) \\
+Primary outcome, extended window & A double-zero trial, whose whole-study zero was already used for the primary window, also used for the extended window & \textbf{After seeing the results} \\
+GRADE adjudication & The four discordances between the two GRADE runs were first resolved by the agent in the consensus; an author adjudicated them after the manuscript was drafted, confirming all four (no rating or certainty level changed) & During the assessment; author adjudication after the manuscript was drafted \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+% ======================================================================= RESULTS
+\section{Results}
+
+\subsection{Study selection}
+Databases and registers yielded \val{prisma.ident.db} records (Figure~\ref{fig:prisma}). After removal of \val{prisma.db.dup} duplicates and \val{prisma.removed.other} record not importable, \val{prisma.db.screened} records were screened and \val{prisma.db.excluded} excluded.
+
+Of \val{prisma.db.sought} reports sought for retrieval, \val{prisma.db.derived} were abstracts identified inside conference-abstract volumes; \val{prisma.db.notretrieved} could not be retrieved, \val{prisma.db.excluded2} were excluded after full assessment, and \val{prisma.db.awaiting} registered trial without results (\val{reg.awaiting.ids}) is awaiting classification.
+
+Citation searching identified \val{prisma.cit.ident} records, \val{prisma.cit.notindb} of which were new. Of the \val{prisma.cit.imported} that passed the widened filter (including one abstract added by hand from a reference list), \val{prisma.altri.included} were included. The supplementary Consensus search found \val{prisma.consensus.new} new records, all also retrieved by Crossref.
+
+Across both branches, screening agreement between the two agents was \val{screen.agree}\% (kappa \val{screen.kappa}, \val{screen.pairs} paired decisions). In total, \val{prisma.reports.included} reports of \val{prisma.trials.included} trials were included.
+
+\begin{figure}[htbp]
+\centering\small
+\begin{tikzpicture}[
+  box/.style={draw, rounded corners=2pt, text width=5.6cm, align=left, inner sep=4pt, font=\footnotesize},
+  side/.style={draw, rounded corners=2pt, text width=5.0cm, align=left, inner sep=4pt, font=\footnotesize},
+  arr/.style={-{Stealth[length=2mm]}}, node distance=5mm and 6mm]
+\node[box] (id) {\textbf{Records identified from databases and registers} (n = \val{prisma.ident.db}):\\
+PubMed \val{prisma.ident.pubmed}; Europe PMC \val{prisma.ident.epmc}; Crossref \val{prisma.ident.crossref}; ClinicalTrials.gov \val{prisma.ident.ctgov}; EU CTR \val{prisma.ident.euctr}; CTIS \val{prisma.ident.ctis};\\ Embase, CENTRAL, ICTRP: not searched};
+\node[side, right=of id] (dup) {\textbf{Removed before screening}:\\ duplicates (n = \val{prisma.db.dup});\\ not importable (book record, n = \val{prisma.removed.other})};
+\node[box, below=of id] (scr) {\textbf{Records screened} (n = \val{prisma.db.screened})};
+\node[side, right=of scr] (ex1) {\textbf{Records excluded} (n = \val{prisma.db.excluded}):\\ not randomised \val{prisma.db.excl1.E1}; FDI or FCM arm missing \val{prisma.db.excl1.E2}; not primary research \val{prisma.db.excl1.E3}; non-human \val{prisma.db.excl1.E4}};
+\node[box, below=of scr] (sou) {\textbf{Reports sought for retrieval} (n = \val{prisma.db.sought}, including \val{prisma.db.derived} abstracts identified within conference volumes)};
+\node[side, right=of sou] (nr) {\textbf{Reports not retrieved} (n = \val{prisma.db.notretrieved})};
+\node[box, below=of sou] (ass) {\textbf{Reports assessed for eligibility} (n = \val{prisma.db.assessed})};
+\node[side, right=of ass] (ex2) {\textbf{Reports excluded} (n = \val{prisma.db.excluded2}):\\ not randomised \val{prisma.db.excl.E1}; FDI or FCM arm missing \val{prisma.db.excl.E2}; not primary research \val{prisma.db.excl.E3}; non-human \val{prisma.db.excl.E4}; duplicate report or abstract volume \val{prisma.db.excl.E11}\\
+\textbf{Awaiting classification} (n = \val{prisma.db.awaiting})};
+\node[box, below=17mm of ass] (inc) {\textbf{Included}: \val{prisma.trials.included} trials, \val{prisma.reports.included} reports (\val{prisma.db.included} from databases and registers, \val{prisma.altri.included} from other methods)};
+\node[side, right=of inc] (oth) {\textbf{Other methods}: citation searching \val{prisma.cit.ident} records (\val{prisma.cit.notindb} new; \val{prisma.cit.outfilter} outside the filter); \val{prisma.cit.imported} screened, \val{prisma.altri.excluded} excluded; \val{prisma.altri.sought} reports assessed, \val{prisma.altri.included} included. Consensus: \val{prisma.consensus.ident} records, \val{prisma.consensus.new} new, all also found by Crossref};
+\draw[arr] (id) -- (scr); \draw[arr] (id) -- (dup);
+\draw[arr] (scr) -- (sou); \draw[arr] (scr) -- (ex1);
+\draw[arr] (sou) -- (ass); \draw[arr] (sou) -- (nr);
+\draw[arr] (ass) -- (inc); \draw[arr] (ass) -- (ex2);
+\draw[arr] (oth.west) -- (inc.east);
+\end{tikzpicture}
+\caption{PRISMA 2020 flow diagram. All counts are generated from the project database and search log.}\label{fig:prisma}
+\end{figure}
+
+\subsection{Characteristics of the included trials}
+Table~\ref{tab:characteristics} describes the \val{trials.n} trials. Of these, \val{trials.openlabel} were open-label, \val{trials.doppio.pieno} were described as double-blind and \val{trials.parziale} as partially masked; \val{trials.pharmacosmos} were funded wholly or partly by Pharmacosmos, the manufacturer of FDI; \val{trials.vifor} involved Vifor, the manufacturer of FCM, without a funding declaration; and \val{trials.indipendenti} had no manufacturer funding (in one of these, commercially available study drugs were purchased from a distributor). A phase~I pharmacokinetic trial~\cite{R33054113} reported none of the review outcomes.
+
+\begin{landscape}
+\begin{table}[p]
+\centering\scriptsize
+\caption{Characteristics of the included trials (only the FDI and FCM arms are shown). $n$ = randomised. Follow-up in days; NR = not reported.}\label{tab:characteristics}
+\begin{tabularx}{\linewidth}{L{2.6cm}L{2.0cm}Y L{1.9cm}L{1.3cm}L{3.1cm}L{3.1cm}L{1.0cm}L{2.1cm}}
+\toprule
+Trial & Country & Population & Blinding & $n$ FDI / FCM & FDI dose & FCM dose & Follow-up & Funding \\
+\midrule
+\tabCaratteristiche
+\bottomrule
+\end{tabularx}
+\end{table}
+\end{landscape}
+
+\subsection{Risk of bias}
+Table~\ref{tab:rob} shows the \val{rob.n} outcome-level judgements: \val{rob.low} at low risk, \val{rob.some} with some concerns and \val{rob.high} at high risk. The commonest concern in the trials contributing to the phosphate outcomes was that safety analyses followed the drug received rather than the assignment, for a few patients. Of the three judgements at high risk, two (one trial) were high because of the randomisation domain, and one was rated high because four domains had some concerns in an internally inconsistent report.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Risk of bias (RoB~2) by trial and outcome. D1 randomisation; D2 deviations from intended interventions; D3 missing outcome data; D4 measurement of the outcome; D5 selection of the reported result. \robL~low; \robS~some concerns; \robH~high.}\label{tab:rob}
+\begin{tabular}{llcccccc}
+\toprule
+Trial & Outcome & D1 & D2 & D3 & D4 & D5 & Overall \\
+\midrule
+\tabRob
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Hypophosphataemia}
+In the primary window, FDI reduced the incidence of hypophosphataemia (\val{P1.primaria.RR.k} trials, \val{P1.primaria.RR.partecipanti} participants; risk ratio \val{P1.primaria.RR.stima}, 95\% CI \val{P1.primaria.RR.ic_inf} to \val{P1.primaria.RR.ic_sup}; $I^2$~=~\val{P1.primaria.RR.i2}\%; Figure~\ref{fig:forest}). A fifth trial had no events in either arm. The risk was \val{P1.primaria.RR.rischio_fcm_1000} per 1000 with FCM and \val{P1.primaria.RR.rischio_fdi_1000} per 1000 with FDI, a difference of \val{P1.primaria.RR.diff_1000} per 1000 (\val{P1.primaria.RR.diff_1000_inf} to \val{P1.primaria.RR.diff_1000_sup}). The estimate was unchanged by the Mantel--Haenszel model (\val{P1.primaria.affiancato-k-5.mh-effetti-fissi-senza-correzione.RR.stima}) and by the fixed-effect model. The sensitivity analyses excluding manufacturer-funded trials and restricted to low risk of bias could not be performed, because no trial qualified. In the exploratory subgroups by dose schedule, the risk ratio was \val{P1.primaria.sottogruppo-schema-dose-fdi-singola-fcm-frazionata.reml-hksj-senza-correzione.RR.stima} (\val{P1.primaria.sottogruppo-schema-dose-fdi-singola-fcm-frazionata.reml-hksj-senza-correzione.RR.ic_inf} to \val{P1.primaria.sottogruppo-schema-dose-fdi-singola-fcm-frazionata.reml-hksj-senza-correzione.RR.ic_sup}) with single-dose FDI against split-dose FCM and \val{P1.primaria.sottogruppo-schema-dose-stesso-schema.reml-hksj-senza-correzione.RR.stima} (\val{P1.primaria.sottogruppo-schema-dose-stesso-schema.reml-hksj-senza-correzione.RR.ic_inf} to \val{P1.primaria.sottogruppo-schema-dose-stesso-schema.reml-hksj-senza-correzione.RR.ic_sup}) with the same schedule in both arms (two trials each; test for difference $p$~=~\val{P1.primaria.sottogruppi-test-schema-dose.reml-hksj-senza-correzione.RR.q_p}). Subgroups by population could not be formed, because only one population had two or more trials. RAPIDIRON reported hypophosphataemia at an early visit (\val{nonusato.ctri-2020-09-027730.P1.primaria.FDI} with FDI versus \val{nonusato.ctri-2020-09-027730.P1.primaria.FCM} with FCM) and at 6~weeks after delivery (\val{nonusato.ctri-2020-09-027730.S3.estesa.FDI} versus \val{nonusato.ctri-2020-09-027730.S3.estesa.FCM}), but did not state the threshold in the article or the published protocol, so these data could not be assigned to an outcome and were not used. In the extended window two trials reported the outcome, one with events (\val{trial.P1.estesa.phosphare-ibd.fdi} versus \val{trial.P1.estesa.phosphare-ibd.fcm}) and one without (\val{trial.P1.estesa.exploriron-ckd.fdi} versus \val{trial.P1.estesa.exploriron-ckd.fcm}); the risk difference was \val{P1.estesa.RD.stima} (\val{P1.estesa.RD.ic_inf} to \val{P1.estesa.RD.ic_sup}).
+
+No participant receiving FDI had severe hypophosphataemia (\val{S1.primaria.RD.eventi_fdi} versus \val{S1.primaria.RD.eventi_fcm}). The three trials used different thresholds: \val{soglia.S1.primaria.phosphare-ida04}~mmol/L in the two PHOSPHARE-IDA trials and \val{soglia.S1.primaria.nct03957057}~mmol/L in the post-partum trial, which measured phosphate only at 6~weeks. ExplorIRON-CKD, whose threshold was below 0.32~mmol/L and which had no events, did not enter this outcome under the threshold rule. The Peto odds ratio, from the two trials with events, was \val{S1.primaria.OR.stima} (\val{S1.primaria.OR.ic_inf} to \val{S1.primaria.OR.ic_sup}). The risk difference was \val{S1.primaria.RD.stima} (\val{S1.primaria.RD.ic_inf} to \val{S1.primaria.RD.ic_sup}; \val{S1.primaria.RD.k} trials) and \val{S1.primaria.sensibilit-3-soglia-esatta.mh-effetti-fissi-doppi-zeri-inclusi.RD.stima} (\val{S1.primaria.sensibilit-3-soglia-esatta.mh-effetti-fissi-doppi-zeri-inclusi.RD.ic_inf} to \val{S1.primaria.sensibilit-3-soglia-esatta.mh-effetti-fissi-doppi-zeri-inclusi.RD.ic_sup}) when restricted to the exact threshold. In both trials with events, this outcome was a post hoc analysis in the registry.
+
+Hypophosphataemia persisting at the last visit of the primary window was less frequent with FDI (Mantel--Haenszel risk ratio \val{S3.primaria.RR.stima}, \val{S3.primaria.RR.ic_inf} to \val{S3.primaria.RR.ic_sup}; \val{S3.primaria.RR.k} trials; $I^2$~=~\val{S3.primaria.RR.i2}\%). The REML model alongside lost one trial to zero cells and was imprecise (\val{S3.primaria.affiancato-k-5.reml-hksj-senza-correzione.RR.stima}, \val{S3.primaria.affiancato-k-5.reml-hksj-senza-correzione.RR.ic_inf} to \val{S3.primaria.affiancato-k-5.reml-hksj-senza-correzione.RR.ic_sup}). In exploratory subgroups, the risk ratio was \val{S3.primaria.sottogruppo-schema-dose-fdi-singola-fcm-frazionata.mh-effetti-fissi-senza-correzione.RR.stima} (\val{S3.primaria.sottogruppo-schema-dose-fdi-singola-fcm-frazionata.mh-effetti-fissi-senza-correzione.RR.ic_inf} to \val{S3.primaria.sottogruppo-schema-dose-fdi-singola-fcm-frazionata.mh-effetti-fissi-senza-correzione.RR.ic_sup}) with single-dose FDI against split-dose FCM and \val{S3.primaria.sottogruppo-schema-dose-stesso-schema.mh-effetti-fissi-senza-correzione.RR.stima} (\val{S3.primaria.sottogruppo-schema-dose-stesso-schema.mh-effetti-fissi-senza-correzione.RR.ic_inf} to \val{S3.primaria.sottogruppo-schema-dose-stesso-schema.mh-effetti-fissi-senza-correzione.RR.ic_sup}) with the same schedule (test for difference $p$~=~\val{S3.primaria.sottogruppi-test-schema-dose.mh-effetti-fissi-senza-correzione.RR.q_p}); with two trials per subgroup and a classification written after the data were known, this is hypothesis-generating only.
+
+At day~35, serum phosphate changed little from baseline with FDI and fell with FCM (mean difference \val{S4.primaria.MD.stima}~mmol/L, \val{S4.primaria.MD.ic_inf} to \val{S4.primaria.MD.ic_sup}; \val{S4.primaria.MD.k} trials, both funded by the manufacturer of FDI). Four further trials reported phosphate in forms that could not be pooled: values at day~35 without the number of participants per visit, medians, and a least-squares mean change without dispersion in an abstract. In the trial without manufacturer funding, which measured phosphate only at 6~weeks, median values were almost identical in the two arms.
+
+Hypophosphataemia at the wide threshold was reported by single trials only: \val{trial.S2.primaria.nct03957057.fdi} versus \val{trial.S2.primaria.nct03957057.fcm} in the post-partum trial (threshold \val{soglia.S2.primaria.nct03957057}~mmol/L, at 6~weeks) and, in the extended window, \val{trial.S2.estesa.exploriron-ckd.fdi} versus \val{trial.S2.estesa.exploriron-ckd.fcm} in ExplorIRON-CKD (threshold \val{soglia.S2.estesa.exploriron-ckd}~mmol/L, episodes reported as adverse events).
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.9\textwidth]{P1-primaria-reml.png}\\[2pt]
+\includegraphics[width=0.9\textwidth]{S3-primaria-mh.png}\\[2pt]
+\includegraphics[width=0.9\textwidth]{S1-primaria-peto.png}\\[2pt]
+\includegraphics[width=0.9\textwidth]{S4-primaria-reml.png}
+\caption{Forest plots of the main analyses: hypophosphataemia (REML--HKSJ, risk ratio), persistent hypophosphataemia (Mantel--Haenszel, risk ratio), severe hypophosphataemia (Peto odds ratio) and change in serum phosphate at day~35 (mean difference, mmol/L). Effects are FDI relative to FCM.}\label{fig:forest}
+\end{figure}
+
+\subsection{Hypersensitivity}
+Serious or severe hypersensitivity reactions were rare in the primary window (\val{S6.primaria.RR.eventi_fdi} with FDI versus \val{S6.primaria.RR.eventi_fcm} with FCM). The Mantel--Haenszel risk ratio was \val{S6.primaria.RR.stima} (\val{S6.primaria.RR.ic_inf} to \val{S6.primaria.RR.ic_sup}; \val{S6.primaria.RR.k} trials with events), and the Mantel--Haenszel risk difference, including double-zero trials, was \val{S6.primaria.sensibilit-mh-effetti-fissi-doppi-zeri-inclusi.mh-effetti-fissi-doppi-zeri-inclusi.RD.stima} (\val{S6.primaria.sensibilit-mh-effetti-fissi-doppi-zeri-inclusi.mh-effetti-fissi-doppi-zeri-inclusi.RD.ic_inf} to \val{S6.primaria.sensibilit-mh-effetti-fissi-doppi-zeri-inclusi.mh-effetti-fissi-doppi-zeri-inclusi.RD.ic_sup}; \val{S6.primaria.sensibilit-mh-effetti-fissi-doppi-zeri-inclusi.mh-effetti-fissi-doppi-zeri-inclusi.RD.k} trials). Definitions ranged from protocol-defined serious or severe reactions, whose criteria were not available to us, to externally adjudicated infusion-related serious adverse events without severity criteria.
+
+Any hypersensitivity or infusion reaction was not pooled. The two trials used different definitions and pointed in opposite directions:
+\begin{itemize}
+\item \val{trial.S7.primaria.nct03957057.fdi} versus \val{trial.S7.primaria.nct03957057.fcm} in the post-partum trial;
+\item \val{trial.S7.primaria.rapidiron.fdi} versus \val{trial.S7.primaria.rapidiron.fcm} in RAPIDIRON (risk ratio \val{trial.S7.primaria.rapidiron.rr}, \val{trial.S7.primaria.rapidiron.rr_inf} to \val{trial.S7.primaria.rapidiron.rr_sup}).
+\end{itemize}
+
+\subsection{Cardiovascular events, osteomalacia and fractures}
+No trial reported adjudicated cardiovascular events. Serious cardiac or vascular adverse events were zero in both arms of the two trials reporting them in the primary window (\val{S8b.primaria.RD.eventi_fdi} versus \val{S8b.primaria.RD.eventi_fcm}), so no effect could be estimated. In the extended window the risk difference was \val{S8b.estesa.RD.stima} (\val{S8b.estesa.RD.ic_inf} to \val{S8b.estesa.RD.ic_sup}; \val{S8b.estesa.RD.k} trials, \val{S8b.estesa.RD.eventi_fdi} versus \val{S8b.estesa.RD.eventi_fcm}). ExplorIRON-CKD listed one serious atrial fibrillation event in the FDI arm by event rather than by patient, which was not extracted, and one trial prespecified an adjudicated cardiovascular composite that it did not report. No trial reported osteomalacia or fractures.
+
+\subsection{Registered and published trials}
+Of the \val{reg.trials.withregistry} included trials whose registry records we retrieved, all \val{reg.trials.withregistry.published} had been published. One registered head-to-head trial (\val{reg.awaiting.ids}) had no results; its registry status was unknown, last reported as recruiting, and its estimated completion date had passed only recently. It is listed as awaiting classification. The registry of one further included trial (CTRI) was not searched, and ICTRP was not searched.
+
+\subsection{Certainty of the evidence}
+Table~\ref{tab:sof} summarises the findings. Hypophosphataemia (in both windows), severe and persistent hypophosphataemia and the change in phosphate were of low certainty, downgraded for risk of bias and imprecision. For the primary outcome, imprecision was downgraded only because the number of events was below the optimal information size, while the confidence interval was far from the null. All other outcomes, including hypophosphataemia at the wide threshold, were of very low certainty.
+
+\begin{landscape}
+\begin{table}[p]
+\centering\scriptsize
+\caption{Summary of findings: FDI compared with FCM in adults with iron deficiency. Risks per 1000 participants. The FCM risk is the crude pooled risk in the FCM arms of the trials in each model; the FDI risk is model-derived from it and from the relative effect (for severe hypophosphataemia no event was observed with FDI).}\label{tab:sof}
+\begin{tabularx}{\linewidth}{L{4.4cm}L{1.9cm}L{1.6cm}L{1.3cm}L{3.2cm}Y L{1.3cm}}
+\toprule
+Outcome & Trials (participants) & Risk with FCM & Risk with FDI & Difference per 1000 (95\% CI) & Relative effect (95\% CI) & Certainty \\
+\midrule
+\tabSof
+\bottomrule
+\end{tabularx}
+\end{table}
+\end{landscape}
+
+% ======================================================================= DISCUSSION
+\section{Discussion}
+
+\subsection{Main findings}
+In head-to-head randomised trials, FDI may reduce the incidence of hypophosphataemia, of severe hypophosphataemia and of hypophosphataemia persisting at the end of the primary window compared with FCM. The effect on the primary outcome was large and consistent across individual trials that used identical doses of the two drugs and trials that used different regimens, although the pooled same-schedule subgroup was imprecise. Its certainty is low because of risk-of-bias concerns in all contributing trials and because the number of events was below the optimal information size, which we applied strictly; the confidence interval excludes the null by a wide margin. All trials contributing to the pooled estimates for hypophosphataemia, persistent hypophosphataemia and change in phosphate were funded by the manufacturer of FDI; we did not downgrade for this, but no independent trial reported the outcome as defined: the two independent trials that measured phosphate used a single late measurement or did not state the threshold. Evidence on hypersensitivity and cardiovascular safety is very uncertain. No head-to-head trial has reported osteomalacia or fractures, the clinical consequences that motivate concern about hypophosphataemia.
+
+\subsection{Comparison with previous syntheses}
+Previous syntheses reached their estimates mainly through network, indirect or study-level comparisons~\cite{Bellos2020,Schaefer2021,Kennedy2023,Pollock2022,Divers2026,Azevedo2026}. Our review restricts the evidence to direct randomisation. This reduces the number of trials, but it removes the exchangeability assumption between trials against different comparators. The direction of our findings on hypophosphataemia is consistent with the syntheses that addressed it~\cite{Bellos2020,Schaefer2021,Azevedo2026}. We do not compare magnitudes, because the populations, thresholds and methods differ.
+
+\subsection{Strengths and limitations}
+\textbf{Strengths.}
+\begin{itemize}
+\item Independent duplicate screening, extraction, risk-of-bias assessment and GRADE rating, with author adjudication of discordances.
+\item Author verification against the source of every analysed data row.
+\item Arm-level data taken from registries as well as articles.
+\item Aggregate numbers produced only by versioned scripts, so every estimate can be traced to a data row and page.
+\end{itemize}
+
+\textbf{Limitations.}
+\begin{itemize}
+\item The protocol was frozen after the repository already held unstructured notes and extractions on some trials, and it was not registered prospectively.
+\item Several deviations were decided after seeing the results: the main model with zero cells, the correction of the pooling rule and the new risk-difference rule, the application of the threshold rule to severe hypophosphataemia, the inclusion of a double-zero trial in the extended window of the primary outcome, not pooling any hypersensitivity, the descriptive registered-versus-published comparison, and the subgroup classification. All are declared; for zero cells the alternative models are reported, and any hypersensitivity is reported trial by trial.
+\item Embase, Cochrane CENTRAL and WHO ICTRP were not searched, so trials indexed only there, and registered trials outside ClinicalTrials.gov and the EU registers, may have been missed; the publication-bias rating is provisional for this reason.
+\item Few trials contributed to each outcome, and the trials informing the pooled estimates for hypophosphataemia, persistent hypophosphataemia and change in phosphate were all funded by one manufacturer.
+\item Thresholds for severe and wide-threshold hypophosphataemia differed between trials, and the risk difference for severe hypophosphataemia includes a trial that measured phosphate only at 6~weeks.
+\item Eligibility evidence sheets were prepared by a single agent run, and the eligibility proposals were approved in blocks.
+\item The hypersensitivity outcomes rest on heterogeneous definitions.
+\item Automated agents performed the first pass of every step, and concordant exclusions at title and abstract, as well as concordant risk-of-bias and GRADE judgements, were not reviewed by an author. We mitigated this with duplicate independent runs, algorithmic checks and author adjudication of discordances, but it remains a methodological novelty.
+\end{itemize}
+
+\subsection{Implications for research}
+Future head-to-head trials should:
+\begin{itemize}
+\item be independent of manufacturers;
+\item define hypophosphataemia at prespecified thresholds and time points;
+\item follow participants long enough to capture musculoskeletal consequences;
+\item use standard criteria for serious hypersensitivity.
+\end{itemize}
+
+\section{Conclusions}
+In head-to-head randomised trials in adults with iron deficiency, FDI may reduce the incidence of hypophosphataemia compared with FCM (low-certainty evidence). The comparative effects on hypersensitivity and cardiovascular events are very uncertain, and no head-to-head trial has reported osteomalacia or fractures.
+
+\section*{Declarations}
+\noindent\textbf{Funding.} This work received no specific funding.\\
+\textbf{Competing interests.} The authors declare no competing interests.\\
+\textbf{Ethics.} This review used only published or registry-posted aggregate data; ethical approval and consent were not required.\\
+\textbf{Data and code availability.} The frozen protocol, search logs, screening decisions, arm-level extraction files, risk-of-bias and GRADE files, the analysis script (\texttt{50-Metanalisi/analisi.R}) and all its outputs, the agent instructions and an export of the selection database are openly available at \url{https://github.com/filippobuscemi11463-sketch/FDI-FCM-metaanalysis}. Full texts and abstracts of the included reports are not redistributed.\\
+\textbf{Use of AI tools.} Large-language-model agents (Claude, Anthropic, via Claude Code) were used for duplicate screening, extraction, risk-of-bias and GRADE assessments, and for drafting code and text, under the procedures described in Methods. Concordant exclusions at title and abstract screening and concordant risk-of-bias and GRADE judgements were accepted without author review; eligibility proposals prepared by a single agent run were approved by an author; discordant and uncertain records, extracted values and judgements were decided by an author, who also verified every data row selected for analysis. The authors take full responsibility for the content.\\
+\textbf{Author contributions.} F.B. and P.B. contributed equally to this work. Both authors approved the final manuscript.
+
+\bibliographystyle{unsrtnat}
+\bibliography{generati/refs-trial,generati/refs-altri}
+
+\end{document}

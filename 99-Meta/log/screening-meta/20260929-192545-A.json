@@ -1,0 +1,127 @@
+[
+ {
+  "pmid": "32518682",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT FCM vs standard of care nello scompenso, nessun braccio FDI"
+ },
+ {
+  "pmid": "32542370",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT iron sucrose vs placebo nella frattura di femore"
+ },
+ {
+  "pmid": "32642775",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi del ferro EV in cardiochirurgia"
+ },
+ {
+  "pmid": "32843079",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: protocollo di RCT FDI vs ferro orale in gravidanza, nessun braccio FCM"
+ },
+ {
+  "pmid": "32985539",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT FDI intraoperatorio vs soluzione salina, nessun braccio FCM"
+ },
+ {
+  "pmid": "33027541",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: lettera sui trial FERWON-IDA/NEPHRO, FDI vs iron sucrose secondo il titolo, nessun braccio FCM"
+ },
+ {
+  "pmid": "33197395",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: AFFIRM-AHF, RCT FCM vs placebo"
+ },
+ {
+  "pmid": "33245866",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT FCM vs ferro orale nel post-partum in Tanzania"
+ },
+ {
+  "pmid": "33259451",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT iron isomaltoside intraoperatorio vs placebo nella protesi di ginocchio"
+ },
+ {
+  "pmid": "33421230",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: studio non randomizzato di ferro sucrosomiale orale vs controlli appaiati"
+ },
+ {
+  "pmid": "33632377",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: PREVENTT, RCT FCM vs placebo prima di chirurgia addominale"
+ },
+ {
+  "pmid": "33745264",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT a quattro bracci iron dextran, iron sucrose, FDI 200 e 1000 mg, nessun braccio FCM"
+ },
+ {
+  "pmid": "33784968",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: Iron and Heart Study, RCT FDI vs placebo nella CKD"
+ },
+ {
+  "pmid": "33794590",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: network meta-analisi FCM vs ferro orale nello scompenso"
+ },
+ {
+  "pmid": "33918110",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT FCM vs placebo dopo protesi bilaterale di ginocchio"
+ },
+ {
+  "pmid": "34003690",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: disegno di HEART-FID, RCT FCM vs placebo"
+ },
+ {
+  "pmid": "34011020",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi FCM vs iron sucrose in ostetricia e ginecologia"
+ },
+ {
+  "pmid": "34080008",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: analisi della qualità di vita di AFFIRM-AHF, FCM vs placebo"
+ },
+ {
+  "pmid": "34162484",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: FERWON-NEPHRO, RCT FDI vs iron sucrose"
+ },
+ {
+  "pmid": "34171281",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e network meta-analisi FRIDA delle preparazioni di ferro in gravidanza"
+ },
+ {
+  "pmid": "34556166",
+  "decisione": "incluso",
+  "motivo": "protocollo di RCT a tre bracci (RAPIDIRON) con «two different intravenous formulations» non nominate vs ferro orale in gravidanza: i due bracci EV potrebbero essere FDI e FCM; età adulta da verificare"
+ },
+ {
+  "pmid": "34767026",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi sul rischio di infezione del ferro EV"
+ },
+ {
+  "pmid": "35477731",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: analisi secondaria dell'Iron and Heart Trial, FDI vs placebo"
+ },
+ {
+  "pmid": "35566482",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT FCM vs nessun trattamento dopo protesi di ginocchio"
+ },
+ {
+  "pmid": "35620535",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi del ferro EV nella frattura di femore"
+ }
+]

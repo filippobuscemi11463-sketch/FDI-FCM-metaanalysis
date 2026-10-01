@@ -1,0 +1,127 @@
+[
+ {
+  "pmid": "10343140",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: studio a braccio unico con iron saccharate seguito da eritropoietina, nessun braccio FDI o FCM"
+ },
+ {
+  "pmid": "11401110",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT EPO sottocute + ferro EV contro nessun trattamento, nessun confronto FDI vs FCM"
+ },
+ {
+  "pmid": "11904617",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT iron sucrose EV vs solfato ferroso orale in gravidanza"
+ },
+ {
+  "pmid": "16165718",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: crossover randomizzato ferroso fumarato orale vs iron sucrose in IBD"
+ },
+ {
+  "pmid": "16279906",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT iron sucrose EV vs solfato di ferro orale in IBD"
+ },
+ {
+  "pmid": "16316358",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT iron sucrose vs placebo in dialisi peritoneale"
+ },
+ {
+  "pmid": "17004982",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT iron sucrose EV vs solfato ferroso orale nel post-partum"
+ },
+ {
+  "pmid": "17666600",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT FCM vs solfato ferroso orale nel post-partum, nessun braccio FDI"
+ },
+ {
+  "pmid": "17950147",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT iron sucrose vs placebo in scompenso cardiaco e insufficienza renale"
+ },
+ {
+  "pmid": "18191732",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: FERRIC-HF, RCT iron sucrose vs nessun trattamento"
+ },
+ {
+  "pmid": "18234203",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT FCM vs solfato ferroso orale nel post-partum, nessun braccio FDI"
+ },
+ {
+  "pmid": "18371137",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT FCM vs solfato ferroso orale in IBD, nessun braccio FDI"
+ },
+ {
+  "pmid": "18720044",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT iron sucrose EV vs solfato ferroso orale nel post-partum"
+ },
+ {
+  "pmid": "18845368",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi ferro EV vs orale in CKD"
+ },
+ {
+  "pmid": "18928998",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT FCM vs solfato ferroso orale nel post-partum, nessun braccio FDI"
+ },
+ {
+  "pmid": "19330567",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT iron sucrose EV vs solfato di ferro orale in IBD"
+ },
+ {
+  "pmid": "19332985",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT iron sucrose EV vs ferro proteinsuccinilato orale in menorragia"
+ },
+ {
+  "pmid": "19405553",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review narrativa su ferric carboxymaltose"
+ },
+ {
+  "pmid": "19682342",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT FCM vs solfato ferroso orale in sanguinamento uterino, nessun braccio FDI"
+ },
+ {
+  "pmid": "19731228",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT iron sucrose vs placebo prima di chirurgia colorettale"
+ },
+ {
+  "pmid": "19875408",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: protocollo FAIR-HF, FCM vs placebo, nessun braccio FDI"
+ },
+ {
+  "pmid": "19888949",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: crossover randomizzato FCM vs placebo, nessun braccio FDI"
+ },
+ {
+  "pmid": "19920054",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: FAIR-HF, RCT FCM vs placebo in scompenso cardiaco"
+ },
+ {
+  "pmid": "20630042",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT iron sucrose vs trattamento standard in frattura di femore"
+ },
+ {
+  "pmid": "20648928",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: studio PK a dosi crescenti di FCM vs placebo, nessun braccio FDI"
+ }
+]

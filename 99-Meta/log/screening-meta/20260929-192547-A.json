@@ -1,0 +1,77 @@
+[
+ {
+  "pmid": "40091548",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi di RCT FCM vs iron sucrose"
+ },
+ {
+  "pmid": "40127959",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi sul ferro postoperatorio"
+ },
+ {
+  "pmid": "40159279",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: meta-analisi di trial di ferro EV vs placebo nello scompenso cardiaco"
+ },
+ {
+  "pmid": "40727015",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e network meta-analysis sul timing del ferro EV in chirurgia"
+ },
+ {
+  "pmid": "40896039",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi del ferro EV nello scompenso acuto"
+ },
+ {
+  "pmid": "41081933",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi ferro EV vs orale in gravidanza"
+ },
+ {
+  "pmid": "41177386",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: meta-analisi con trial sequential analysis di FCM vs placebo nello scompenso"
+ },
+ {
+  "pmid": "41211251",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review narrativa sull'ipofosfatemia da ferro EV"
+ },
+ {
+  "pmid": "41711738",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi di RCT FCM vs placebo/standard care nello scompenso"
+ },
+ {
+  "pmid": "42078226",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica qualitativa di RCT sul ferro in gravidanza"
+ },
+ {
+  "pmid": "42441103",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica del ferro EV nella CKD non dialitica senza anemia"
+ },
+ {
+  "pmid": "42502637",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: protocollo di RCT ferro sucrosomiale orale vs placebo, nessun braccio FDI o FCM"
+ },
+ {
+  "pmid": "9148651",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: RCT eritropoietina vs placebo con ferro saccarato in tutti i bracci"
+ },
+ {
+  "pmid": "DOI-10.1097_01.hs9.0000972860.64685.8e",
+  "decisione": "incluso",
+  "motivo": "abstract congressuale di RCT di fase III iron isomaltoside vs ferric carboxymaltose in adulti con IDA; abstract non disponibile, decidere sul testo"
+ },
+ {
+  "pmid": "EPMC-PPR1312797",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: target trial emulation su dati osservazionali, ferro EV vs nessun trattamento in gravidanza"
+ }
+]

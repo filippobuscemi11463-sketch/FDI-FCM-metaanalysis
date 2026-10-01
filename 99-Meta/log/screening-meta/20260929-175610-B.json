@@ -1,0 +1,127 @@
+[
+ {
+  "pmid": "EPMC-PPR1059460",
+  "decisione": "escluso",
+  "motivo": "E4-non-umano: FDI e FCM in topi maschi sani"
+ },
+ {
+  "pmid": "EPMC-PPR1067920",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: profilo di coorte che riunisce dataset indiani su anemia, non un RCT FDI vs FCM"
+ },
+ {
+  "pmid": "EPMC-PPR1083820",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: network meta-analisi di RCT contro placebo"
+ },
+ {
+  "pmid": "EPMC-PPR1193679",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: coorte retrospettiva appaiata FDI vs FCM"
+ },
+ {
+  "pmid": "EPMC-PPR1234531",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: coorte retrospettiva monocentrica in oncologia"
+ },
+ {
+  "pmid": "EPMC-PPR1265311",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: analisi del database FAERS"
+ },
+ {
+  "pmid": "EPMC-PPR609550",
+  "decisione": "incluso",
+  "motivo": "RCT open-label con randomizzazione a FCM EV, FDI EV o ferro orale in donne adulte con anemia post-partum"
+ },
+ {
+  "pmid": "EPMC-PPR879459",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi costo-utilità basata su modello di simulazione"
+ },
+ {
+  "pmid": "EUCTR-2017-002452-87",
+  "decisione": "incluso",
+  "motivo": "registrazione di RCT in doppio cieco FDI (iron isomaltoside) vs FCM in adulti con IDA e IBD; risultati indicati come disponibili"
+ },
+ {
+  "pmid": "EUCTR-2019-004370-26",
+  "decisione": "incluso",
+  "motivo": "registrazione di RCT randomizzato in doppio cieco iron isomaltoside vs FCM in adulti con IDA e CKD, senza risultati"
+ },
+ {
+  "pmid": "EUCTR-2022-000894-16",
+  "decisione": "incluso",
+  "motivo": "registrazione laconica: adulti con IBD e carenza marziale, farmaci e disegno non indicati, possibile RCT FDI vs FCM da verificare in fase 2"
+ },
+ {
+  "pmid": "EUCTR-2022-001252-41",
+  "decisione": "incluso",
+  "motivo": "registrazione di RCT con ferro EV in adulti (artroplastica di ginocchio): bracci non indicati, da verificare in fase 2"
+ },
+ {
+  "pmid": "NCT02632760",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: FCM contro placebo, senza braccio FDI"
+ },
+ {
+  "pmid": "NCT02905539",
+  "decisione": "incluso",
+  "motivo": "registrazione di RCT in doppio cieco iron isomaltoside 1000 vs FCM in adulti con IDA"
+ },
+ {
+  "pmid": "NCT03191201",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: FCM contro placebo, senza braccio FDI"
+ },
+ {
+  "pmid": "NCT03237065",
+  "decisione": "incluso",
+  "motivo": "registrazione di RCT open-label PHOSPHARE-IDA-05 FDI vs FCM in adulti con IDA, con risultati"
+ },
+ {
+  "pmid": "NCT03238911",
+  "decisione": "incluso",
+  "motivo": "registrazione di RCT open-label PHOSPHARE-IDA-04 FDI vs FCM in adulti con IDA, con risultati"
+ },
+ {
+  "pmid": "NCT03466983",
+  "decisione": "incluso",
+  "motivo": "registrazione di RCT in doppio cieco iron isomaltoside vs FCM in adulti con IDA e IBD"
+ },
+ {
+  "pmid": "NCT03957057",
+  "decisione": "incluso",
+  "motivo": "registrazione di RCT a tre bracci: FCM EV, iron isomaltoside EV, ferro orale in adulte con anemia post-partum"
+ },
+ {
+  "pmid": "NCT05358509",
+  "decisione": "incluso",
+  "motivo": "registrazione di RCT RAPIDIRON a tre bracci: FCM, iron isomaltoside (FDI), ferro orale in donne gravide adulte con IDA"
+ },
+ {
+  "pmid": "NCT05504863",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: registrato come osservazionale, follow-up dei nati da RAPIDIRON"
+ },
+ {
+  "pmid": "NCT05545527",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: registrato come osservazionale, studio di neuroimaging sui neonati di RAPIDIRON"
+ },
+ {
+  "pmid": "NCT05581420",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: MonoFer contro ferro orale, senza braccio FCM"
+ },
+ {
+  "pmid": "NCT06309641",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: registrato come osservazionale, dosaggio della metemoglobina dopo FCM o FDI"
+ },
+ {
+  "pmid": "NCT06350955",
+  "decisione": "incluso",
+  "motivo": "registrazione di RCT in singolo cieco iron isomaltoside vs FCM in adulti con bypass gastrico Roux-en-Y e carenza marziale, senza risultati"
+ }
+]

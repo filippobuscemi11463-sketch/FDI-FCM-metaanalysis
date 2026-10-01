@@ -1,0 +1,64 @@
+commit	date	subject
+12ea1c80acb5a5ed39a8f38286f00016f814b3e8	2026-10-01T17:07:28+02:00	Revisione per medRxiv: segnaposto sciolti (Embase/CENTRAL/ICTRP non interrogati come limite dichiarato, protocollo non registrato, nessun finanziamento né conflitto, contributo paritario, dichiarazione etica, link al repository pubblico, lavoro di metodo «in preparation»); checklist PRISMA 2020 come supplemento; PDF ricompilati
+76f17b55db72c9eabd0c98cd2672fb5a789b59bd	2026-10-01T16:55:35+02:00	Revisione: riga Publication bias descritta come la deviazione 15 (confronto descrittivo, senza funnel plot), come nell'OSF; il confronto aggiunto all'elenco dei Limiti delle deviazioni decise dopo i risultati; PDF ricompilato
+f1b04d5211ed72e67b07ffbc21ddaa7a9f0ba41e	2026-10-01T16:49:41+02:00	Deviazioni: «After seeing the results» al posto di «the data» nelle tabelle di revisione e OSF, coerente con i Limiti e con la classificazione; publication bias in grassetto come decisa dopo i risultati (OSF n. 12 da «Before reporting»); nei Limiti anche la nuova regola della risk difference; definizione di «durante» estesa a «or between them and the analysis» nel lavoro di metodo e nel CSV; PDF ricompilati
+33d6a5b0570a1e3485e0ab3b89b5878b34a9328d	2026-10-01T16:45:01+02:00	Deviazione Software allineata al GLMM («Before analysis, after extraction»: sessionInfo nella prima versione di analisi.R, 733c3f5) in revisione e OSF; nei Limiti della revisione «after seeing the results»
+ccc65a54fce1d83f519e9060eb5f589af669f9d6	2026-10-01T16:41:44+02:00	Deviazione GLMM: etichetta «Before analysis, after extraction (event counts known)» nella tabella della revisione e nell'OSF; da git la regola è nella prima versione di analisi.R (733c3f5), dopo l'estrazione e prima della prima run (1bcf836), coerente con «durante» del lavoro di metodo
+2df6c730a3ad376cfc59d6094355eb388ca7051d	2026-10-01T16:38:24+02:00	Quinto fact-check (frasi di ff953a0): nessun errore; corrette quattro formulazioni (voci delle affermazioni false, mancati rilevamenti, abstract e dichiarazione AI della revisione). Verificato su git che le due affermazioni false erano nelle versioni controllate dai giri 2 (094cde9) e 3 (f5bae06); PDF ricompilati
+ff953a0aa83297a751949e16a9f1a9fe6e2cfd7b	2026-10-01T16:33:13+02:00	Quarto fact-check delle correzioni: abstract della revisione con i giudizi concordi non rivisti; GRADE «risolte dall'agente, confermate dall'autore»; ridondanza RoB 2 tolta; Timeline del lavoro di metodo corretta (correzioni dopo l'intervallo, aggiudicazione GRADE il 1 ottobre); due voci distinte fra le affermazioni false; «at least two» mancati rilevamenti; OSF con eleggibilità a passaggio singolo; nota sui consensi RoB 2 nel log; PDF ricompilati
+1c19be63332c243bc282a5caef9fdf1060b562dc	2026-10-01T16:25:09+02:00	Terzo fact-check delle correzioni: giudizi concordi RoB 2 e GRADE accettati senza revisione dell'autore (dichiarazione dell'utente), corretti revisione, testo OSF e lavoro di metodo; nuova affermazione falsa nel log (12, 7 sulle procedure); due mancati rilevamenti noti del fact-checker; durata del modulo riferita alla chiusura del terzo giro; controllo del lavoro di metodo descritto nei Metodi; deviazione GRADE nella tabella OSF; PDF ricompilati
+c416db0fe450fc987adaca5aec1436c9ada4f252	2026-10-01T16:12:02+02:00	GRADE: le 4 discordanze A/B, risolte dall'agente nel consenso del 2026-09-29 senza decisione dell'utente (contro grade-meta.md §6), decise dall'utente il 2026-10-01 confermando il consenso; nessun giudizio né certezza cambia. Deviazione registrata nel §15 (24 distinte, 13 dopo il fact-check), nella tabella della revisione e nel lavoro di metodo; PDF ricompilati
+b01149156864d3dca8997a6995bf7c65043a0e64	2026-09-30T14:50:06+02:00	Rigenerazione dopo la verifica delle righe 105-106: output R, SoF, numeri e PDF dei due manoscritti (stime invariate)
+d75c923fbb9bf93f462f0f72fc021b6a3573b764	2026-09-30T14:49:49+02:00	Meta-analisi: righe 105-106 di ma-bracci (ExplorIRON, P1 estesa) verificate dall'utente sulla fonte 38347520; frase del lavoro di metodo aggiornata
+2641e5fac2b501bdfb31f949fae4bb1bc0e5101a	2026-09-29T23:12:47+02:00	Lavoro di metodo: correzioni della verifica (tesi ridimensionata, durata fissata a 145bc29, deviazioni riclassificate, discordanze per colonna, procedure descritte come eseguite); deviazione GLMM nel §15
+145bc297d22da478e95bdc3f1563b84e153e0986	2026-09-29T22:44:01+02:00	Correzioni della terza verifica: P1 estesa con RD, GRADE S1 e P1 estesa aggiornati, RAPIDIRON, limiti e deviazioni
+b691a0296c07c14454ff3673fe960c4c11c449be	2026-09-29T22:42:48+02:00	P1 estesa: ExplorIRON-CKD incluso (zero sull'intero studio); note RAPIDIRON allineate; §15
+f5bae063c5cefa96dd4783a120ca204290b6fa68	2026-09-29T22:37:16+02:00	Manoscritto: correzioni della seconda verifica (eleggibilità a passaggio singolo, deviazioni, celle zero, soglie, RAPIDIRON, certezza, cecità); testo OSF aggiornato
+279fb79a4626513d362ffa73a167212c72be5329	2026-09-29T22:35:04+02:00	GRADE S1 aggiornato; macro per i dati di fosfato non usati
+7ba98cd8b32d82e95ed5280fe14fa0c86c2a03b7	2026-09-29T22:34:32+02:00	S1: ExplorIRON-CKD tolto per la regola della soglia per difetto (§6.4); deviazioni §15 aggiornate
+094cde9e44d39034a9da52789a5700d8fbe5a956	2026-09-29T22:23:31+02:00	Run pulita dopo le correzioni; numeri, SoF e manoscritto rigenerati
+b3cadf6aa36e624cab0d784e193b105167afb9d5	2026-09-29T22:23:16+02:00	Correzioni dal fact-checker: regola di aggregazione al protocollo (S8b), sottogruppi esplorativi, registrati vs pubblicati; manoscritto, GRADE, SoF, §15 e testo OSF aggiornati
+cda86c2fea230cc50e3dde200464cc68e6fc7567	2026-09-29T22:03:40+02:00	Registrazione OSF retrospettiva: testo per il template Generalized SR e protocollo congelato; deviazione §15 sulle guide RoB 2 e GRADE
+d22967be2a7f8aafe0cdf6df5284ba77d6406f50	2026-09-29T22:01:12+02:00	Manoscritto della revisione sistematica: bozza in inglese, numeri/tabelle/PRISMA/bibliografia generati da script
+66e9ad43e0f71854312642ffab7d6ca7e58033e6	2026-09-29T21:42:17+02:00	GRADE: consenso (12 esiti) in 50-Metanalisi/grade.csv; SoF e giudizi motivati generati
+6e68524e11d9a3c473b56fa9d219caff8dbd3c01	2026-09-29T21:34:28+02:00	50-Metanalisi: run con pesi ed effetti assoluti
+455b98e2ec53c1c3742a4d28846075f012167fcb	2026-09-29T21:34:25+02:00	GRADE: guida 1.0 approvata, grade_meta.py, agente meta-grade; script R con partecipanti, pesi ed effetti assoluti
+9ef802c39ca259679587863f657bd91b2a351f78	2026-09-29T21:31:26+02:00	GRADE: guida operativa, bozza 1.0 da approvare
+3ada7ce078a9dc0e2b606ad847bc58bd0d60a760	2026-09-29T21:28:37+02:00	50-Metanalisi: run dopo le deviazioni del 2026-09-29
+cc9dd590ab43f848762dcffd80bce226544c47c5	2026-09-29T21:28:35+02:00	50-Metanalisi: modello principale con celle zero, S7 narrativo, stime per trial; deviazioni §15
+1bcf8363ae0d4f7d31b52abc812bc5cc49c06fc3	2026-09-29T21:23:17+02:00	50-Metanalisi: prima run dello script (output, checksum e versioni in run.txt)
+733c3f5eacf5b631b4cec4f85946f78e08a07869	2026-09-29T21:23:03+02:00	50-Metanalisi: script R di analisi (metafor), protocollo §11
+24ff0b2cb7ffa26ad118d556eb68a7dfc9b61d90	2026-09-29T20:58:37+02:00	RoB 2 completo: consenso Lubiana, RAPIDIRON, IJRCOG, i3R; guida 1.2 (31 esiti)
+40d78faabd33433018074194bbdf1f0d77415e8c	2026-09-29T20:51:04+02:00	RoB 2: consenso ExplorIRON-CKD (3 esiti)
+7a97401b2e7b0808a4a1c86c487c7c02293715c7	2026-09-29T20:49:19+02:00	RoB 2: consenso HOMe aFers (3 esiti)
+1c1b89b31c262e6cc78facf07f0c9d0b55c8232b	2026-09-29T20:47:57+02:00	RoB 2: consenso PHOSPHARE-IDA04/05 (12 esiti); S8b IDA in finestra primaria (regola 8)
+e57d079c1d270a65e8eb5d501845243bc2a3698e	2026-09-29T20:39:05+02:00	RoB 2: guida 1.1 e consenso PHOSPHARE-IBD (4 esiti) in 30-Dati
+c5b2b1be91b6c10304844790f806b08977dd8a7c	2026-09-29T20:30:48+02:00	RoB 2: guida (bozza 1.0), ma-rob2.csv, rob_meta.py e agente meta-rob2
+493091ef32c73593ff6e8f3d817ddefd1bbd392b	2026-09-29T20:26:51+02:00	Estrazione completa: 10 trial in 30-Dati (159 righe, 68 usate e verificate)
+9b1f099a198a25bbe728b2fef9569aaee3a301ba	2026-09-29T20:25:44+02:00	Estrazione degli ultimi 5 trial: A/B, confronti e consensi (in attesa di verifica)
+1061dfc5003666757b5838c9a5914ee839724b3d	2026-09-29T20:12:04+02:00	ExplorIRON-CKD in 30-Dati (verificato); S1 primaria dallo zero globale
+e1e9f809c71903dc19d912962264d5c74d190e49	2026-09-29T20:11:12+02:00	PHOSPHARE-IDA04/05 e HOMe aFers in 30-Dati (verificati); consenso ExplorIRON-CKD
+2af5ce36f018d032cf99ca6d2d89bcbbda14d6db	2026-09-29T20:07:18+02:00	HOMe aFers: estrazioni A/B e consenso (in attesa di verifica)
+38506862a110dcd91ab12364c6e83d332ae4f977	2026-09-29T20:06:40+02:00	PHOSPHARE-IDA04/05: consensi (in attesa di verifica); codebook 1.2; S4 al giorno 35
+1011d2195f4e286322a40daec2ddcd6050a04a58	2026-09-29T19:54:56+02:00	PHOSPHARE-IBD in 30-Dati (29 righe, 10 verificate dall'utente); codebook 1.1
+8407f45aedfcc7217043e2f5d972305a5ca51a3a	2026-09-29T19:53:02+02:00	PHOSPHARE-IBD: estrazioni A e B, confronto e consenso (in attesa di verifica utente)
+7336bf8ccd1deeff2936c495ce8fe7d1c77bc00f	2026-09-29T19:41:36+02:00	Codebook dell'estrazione v1.0 approvato dall'utente
+e8f9775a4a79706a1ee4d63e7f3175e5a73a8b95	2026-09-29T19:40:09+02:00	Protocollo §15: la riga sul codebook è una proposta non ancora approvata
+115dbeafa604e3ecf840db4f919e6cffede143ad	2026-09-29T19:39:52+02:00	Meta-analisi: codebook dell'estrazione, CSV vuoti, script di validazione e agente estrattore
+33e13e5f9c45f9dc3aea13c69aa640f5303588f0	2026-09-29T19:33:11+02:00	Meta-analisi fase 2: inclusi il protocollo di RAPIDIRON, l'abstract EHA P1495 e 33054113
+5e51d0fa7036deb5499aa8174285829db5151405	2026-09-29T19:31:28+02:00	PHOSPHARE-IDA: trial A = NCT03238911, trial B = NCT03237065 (verificato sui registri)
+7cb6e3683edbdc6de2d64d7ba39d0630fcdc1bb4	2026-09-29T19:27:07+02:00	Meta-analisi: sorgenti e schede dei 2 inclusi della ricerca per citazione
+a73f52a0c5eeb85864b77bc7f0e17e111796ad73	2026-09-29T19:26:02+02:00	Meta-analisi: fase 1 sui 190 record della ricerca per citazione
+aa03fd835a19dc6e3a29fa6816f2d1a82be2142d	2026-09-29T19:21:10+02:00	Meta-analisi: ricerca per citazione su Europe PMC, 190 record nuovi da screenare
+8d9939587441c60d1d0e28c628070496a75d494b	2026-09-29T18:58:38+02:00	Meta-analisi fase 2: decisioni della terza tornata (approvazione in blocco)
+f03f182afb4d05e5f08c0e26d53526ff93c903c4	2026-09-29T18:53:28+02:00	Meta-analisi fase 2: decisioni approvate registrate, 8 trial; volumi e abstract dai PDF dell'utente
+e2d3b9e1fb47127e6d0be1566b6ab7278ded27bb	2026-09-29T18:44:23+02:00	Meta-analisi fase 2: 10 PDF dell'utente acquisiti e schede; fulltext_fetch corretto
+744bfe9019dfab18367d9375a57c52daa476fd07	2026-09-29T18:21:55+02:00	Meta-analisi fase 2: schede di eleggibilità di 33 record ed elenco dei 26 da recuperare
+00e6c99142fd06d51ec2f9784583f1f6ca4a6ec8	2026-09-29T17:59:15+02:00	Meta-analisi: decisioni dell'utente sui 6 dubbi; criteri v1.2 (volumi di abstract)
+5ebc015a865cf10a0c9678e98724cc5613b22a25	2026-09-29T17:56:27+02:00	Meta-analisi: fase 1 sui 100 record delle altre fonti (doppio, indipendente)
+f101e60348777293b509a0f729d4fe7db59939bc	2026-09-29T17:52:49+02:00	Criteri meta v1.1: registrazioni, abstract congressuali, modelli economici (E3)
+35535ec2feff7e839944da0386257fe6c2919d19	2026-09-29T17:48:36+02:00	Meta-analisi: Crossref come fonte sistematica per gli abstract congressuali
+1cba1e815e548e62e61185025f357e313fe75c43	2026-09-29T17:26:20+02:00	Meta-analisi: decisioni dell'utente sui 4 dubbi di fase 1 (19 inclusi, 128 esclusi)
+4552268bed9e97d43281bdbadf22788e60d5d44a	2026-09-29T17:18:43+02:00	Meta-analisi: screening di fase 1 dei 147 record PubMed (doppio, indipendente)
+d1c9b079a02f0010d0225571713c9efb5718c1dd	2026-09-29T17:12:58+02:00	Meta-analisi: criteri di selezione, meta-screener e doppio screening
+fc19a3a366524b4c813c6e1f41f13f54e15792d3	2026-09-29T16:41:01+02:00	Protocollo di meta-analisi FDI vs FCM, versione 1.0 congelata

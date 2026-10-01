@@ -1,0 +1,127 @@
+[
+ {
+  "pmid": "EPMC-PMC11807454",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: analisi di costo-efficacia (modello economico) FDI vs FCM, non un RCT"
+ },
+ {
+  "pmid": "EPMC-PMC11807460",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: indice di fragilità nella IBD, nessun ferro EV nel titolo"
+ },
+ {
+  "pmid": "EPMC-PMC11807541",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: studio su adalimumab biosimilare AVT02, non riguarda il ferro"
+ },
+ {
+  "pmid": "EPMC-PMC11912877",
+  "decisione": "incluso",
+  "motivo": "raccolta di poster congressuali senza abstract: il titolo non esclude con certezza un RCT FDI vs FCM, si decide sul fulltext"
+ },
+ {
+  "pmid": "EPMC-PMC12496567",
+  "decisione": "incluso",
+  "motivo": "raccolta di presentazioni congressuali senza abstract: il titolo non esclude con certezza la domanda, si decide sul fulltext"
+ },
+ {
+  "pmid": "EPMC-PMC13100505",
+  "decisione": "incluso",
+  "motivo": "raccolta di abstract congressuali (ECTS, metabolismo osseo) senza abstract: possibili dati di RCT FDI vs FCM su fosfato, si decide sul fulltext"
+ },
+ {
+  "pmid": "EPMC-PMC13297121",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi sul rischio infettivo del ferro parenterale"
+ },
+ {
+  "pmid": "EPMC-PMC13344646",
+  "decisione": "incluso",
+  "motivo": "raccolta di poster congressuali (rivista Pregnancy) senza abstract: possibile RCT FDI vs FCM in gravidanza, si decide sul fulltext"
+ },
+ {
+  "pmid": "EPMC-PMC13344768",
+  "decisione": "incluso",
+  "motivo": "raccolta di late-breaking abstract (rivista Pregnancy) senza abstract: il titolo non esclude la domanda, si decide sul fulltext"
+ },
+ {
+  "pmid": "EPMC-PMC13439031",
+  "decisione": "incluso",
+  "motivo": "raccolta di abstract congressuali di nutrizione senza abstract: il titolo non esclude con certezza la domanda, si decide sul fulltext"
+ },
+ {
+  "pmid": "EPMC-PMC6512590",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: abstract di revisione sistematica con network meta-analisi del ferro EV nella IBD"
+ },
+ {
+  "pmid": "EPMC-PMC6512653",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: abstract di revisione sistematica con network meta-analisi sulla sicurezza del ferro EV nella IBD"
+ },
+ {
+  "pmid": "EPMC-PMC6554827",
+  "decisione": "incluso",
+  "motivo": "abstract congressuale sui trial randomizzati PHOSPHARE-IDA04/05, iron isomaltoside vs ferric carboxymaltose"
+ },
+ {
+  "pmid": "EPMC-PMC7123738",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: capitolo di libro sul patient blood management in artroplastica, non uno studio primario"
+ },
+ {
+  "pmid": "EPMC-PMC7672678",
+  "decisione": "incluso",
+  "motivo": "raccolta di poster congressuali UEG 2017 senza abstract: il titolo non esclude con certezza la domanda, si decide sul fulltext"
+ },
+ {
+  "pmid": "EPMC-PMC7875189",
+  "decisione": "incluso",
+  "motivo": "raccolta di abstract congressuali BRS/BORS senza abstract: possibili dati su ipofosfatemia da ferro EV, si decide sul fulltext"
+ },
+ {
+  "pmid": "EPMC-PMC7973157",
+  "decisione": "incluso",
+  "motivo": "abstract congressuale senza testo su ipofosfatemia grave dopo infusione di ferro: probabile caso clinico ma manca l'abstract, si decide sul fulltext"
+ },
+ {
+  "pmid": "EPMC-PMC8089862",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: case report di ipofosfatemia dopo FCM, un solo paziente"
+ },
+ {
+  "pmid": "EPMC-PMC8089959",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: case report di ipercalcemia da immobilizzazione, nessun ferro"
+ },
+ {
+  "pmid": "EPMC-PMC8090380",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: case report di adenoma paratiroideo mediastinico, nessun ferro"
+ },
+ {
+  "pmid": "EPMC-PMC8194831",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: studio su attività IBD e gravità COVID-19, nessun ferro EV"
+ },
+ {
+  "pmid": "EPMC-PMC8548623",
+  "decisione": "incluso",
+  "motivo": "capitolo annuale Side Effects of Drugs senza abstract: probabile rassegna (E3), ma il titolo non permette di escluderlo con certezza, si decide sul fulltext"
+ },
+ {
+  "pmid": "EPMC-PMC9548091",
+  "decisione": "incluso",
+  "motivo": "raccolta di poster congressuali UEG 2022 senza abstract: il titolo non esclude con certezza la domanda, si decide sul fulltext"
+ },
+ {
+  "pmid": "EPMC-PMC9596941",
+  "decisione": "incluso",
+  "motivo": "raccolta di abstract congressuali (JBMR plus) senza abstract: il titolo non esclude con certezza la domanda, si decide sul fulltext"
+ },
+ {
+  "pmid": "EPMC-PMC9931441",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: articolo di commento in tedesco su IRONMAN (ferro nello scompenso cardiaco), nessun confronto FDI vs FCM nel titolo"
+ }
+]

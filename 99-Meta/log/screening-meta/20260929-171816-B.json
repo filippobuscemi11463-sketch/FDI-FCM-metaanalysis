@@ -1,0 +1,127 @@
+[
+ {
+  "pmid": "35890303",
+  "decisione": "dubbio",
+  "motivo": "studio PK di accumulo epatico di ferro in 54 pazienti in dialisi con IS, FCM e FDI: randomizzazione non dichiarata e carenza marziale non chiara"
+ },
+ {
+  "pmid": "35930123",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review narrativa sull'IDA nelle IBD"
+ },
+ {
+  "pmid": "35947351",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi con confronto indiretto"
+ },
+ {
+  "pmid": "36068430",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: valutazione beneficio-rischio narrativa, senza dati propri"
+ },
+ {
+  "pmid": "36178088",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: meta-analisi di RCT su ferro EV vs placebo in HFrEF"
+ },
+ {
+  "pmid": "36343979",
+  "decisione": "incluso",
+  "motivo": "RCT in doppio cieco PHOSPHARE-IBD, FDI vs FCM randomizzati 1:1 in adulti con IDA da IBD"
+ },
+ {
+  "pmid": "36347265",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: IRONMAN, FDI vs usual care, senza braccio FCM"
+ },
+ {
+  "pmid": "36462965",
+  "decisione": "incluso",
+  "motivo": "lettera senza abstract il cui titolo (ipersensibilità con FDI e FCM) non esclude con certezza dati di un RCT: si decide sul fulltext"
+ },
+ {
+  "pmid": "36938780",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: coorte retrospettiva di infusioni domiciliari, 181 FCM e 16 FDI"
+ },
+ {
+  "pmid": "37010731",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi sulle reazioni di ipersensibilità"
+ },
+ {
+  "pmid": "37015198",
+  "decisione": "incluso",
+  "motivo": "protocollo e dati basali di ExplorIRON-CKD, RCT in doppio cieco FCM vs FDI in adulti con ND-CKD e carenza marziale"
+ },
+ {
+  "pmid": "37062867",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: meta-analisi bayesiana di RCT su ferro EV vs placebo o usual care"
+ },
+ {
+  "pmid": "37074386",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi di AFFIRM-AHF e IRONMAN"
+ },
+ {
+  "pmid": "37193585",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: lettera/commento su PHOSPHARE-IBD, senza abstract e senza dati propri dal tipo di pubblicazione"
+ },
+ {
+  "pmid": "37657262",
+  "decisione": "escluso",
+  "motivo": "E4-non-umano: studio proteomico in vitro su macrofagi"
+ },
+ {
+  "pmid": "37671923",
+  "decisione": "escluso",
+  "motivo": "E4-non-umano: studio sul microbioma in topi con anemia sideropenica"
+ },
+ {
+  "pmid": "37702931",
+  "decisione": "escluso",
+  "motivo": "E2-manca-FDI-o-FCM: confronto indiretto MAIC con comparatore SFO, nessun RCT che randomizzi FDI contro FCM"
+ },
+ {
+  "pmid": "37746404",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: case report di ipofosfatemia da FCM in un paziente con HHT"
+ },
+ {
+  "pmid": "37884522",
+  "decisione": "incluso",
+  "motivo": "analisi secondaria di ExplorIRON-CKD, RCT FDI vs FCM randomizzati 1:1 in adulti con ND-CKD e carenza marziale"
+ },
+ {
+  "pmid": "37885813",
+  "decisione": "incluso",
+  "motivo": "RCT open-label con FCM EV, FDI EV e ferro orale in donne adulte con anemia post-partum; FDI e FCM sono bracci randomizzati"
+ },
+ {
+  "pmid": "37937204",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review narrativa sulla carenza di ferro nello scompenso cardiaco"
+ },
+ {
+  "pmid": "37962569",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: aggiornamento di linee guida ESC 2023, review"
+ },
+ {
+  "pmid": "38066930",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review educazionale sulle formulazioni di ferro EV"
+ },
+ {
+  "pmid": "38094535",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: rapid HTA basata su revisioni, meta-analisi e ITC"
+ },
+ {
+  "pmid": "38337452",
+  "decisione": "incluso",
+  "motivo": "RCT open-label con FCM EV, FDI EV e ferro orale in donne adulte con anemia post-partum; FDI e FCM sono bracci randomizzati"
+ }
+]

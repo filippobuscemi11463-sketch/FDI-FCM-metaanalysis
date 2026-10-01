@@ -1,0 +1,11 @@
+trial_id,popolazione,schema_dose,motivo
+NCT03238911,ida-generica,fdi-singola-fcm-frazionata,"ma-trial.csv: FDI 1000 mg d0 singola; FCM 750 mg d0 + 750 mg d7"
+NCT03237065,ida-generica,fdi-singola-fcm-frazionata,"ma-trial.csv: FDI 1000 mg singola d0; FCM 750 mg d0 e d7"
+NCT03466983,ibd,stesso-schema,"ma-trial.csv: 1000 mg d0 + 500 o 1000 mg d35 in entrambi i bracci"
+NCT02905539,ida-generica,stesso-schema,"ma-trial.csv: 20 mg/kg fino a 1000 mg, infusione singola in entrambi i bracci; popolazione: sanguinamento uterino"
+EudraCT-2019-004370-26,nefropatia,stesso-schema,"ma-trial.csv: 1000 mg d0 + 500 o 1000 mg a 1 mese in entrambi i bracci"
+NCT03957057,ostetricia,,"ma-trial.csv: stessa formula di Ganzoni, ma massimo giornaliero 1500 mg FDI e 1000 mg FCM: schema non classificabile"
+CTRI/2020/09/027730,ostetricia,stesso-schema,"ma-trial.csv: 20 mg/kg, massimo 1000 mg, dose singola in entrambi i bracci"
+CTRI/2023/1/048725,ida-generica,stesso-schema,"ma-trial.csv: 1000 mg infusione singola in entrambi i bracci"
+TRIAL-DOI-10.18203_2320-1770.ijrcog20250512,ida-generica,,"ma-trial.csv: formula di Ganzoni; FDI fino a 1500 mg per infusione, FCM massimo 1000 mg per seduta con dosi successive se necessarie: schema non classificabile"
+TRIAL-33054113,volontari-sani,stesso-schema,"ma-trial.csv: 200 mg dose singola in entrambi i bracci"

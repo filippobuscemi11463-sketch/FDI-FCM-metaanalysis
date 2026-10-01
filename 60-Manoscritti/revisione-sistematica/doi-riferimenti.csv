@@ -1,0 +1,19 @@
+chiave,doi,atteso
+Page2021,10.1136/bmj.n71,PRISMA 2020 statement
+Sterne2019,10.1136/bmj.l4898,RoB 2
+Guyatt2008,10.1136/bmj.39489.470347.AD,GRADE
+Guyatt2011imprecision,10.1016/j.jclinepi.2011.01.012,GRADE imprecision
+Murad2017,10.1136/ebmed-2017-110668,certainty without single estimate
+Santesso2020,10.1016/j.jclinepi.2019.10.014,GRADE informative statements
+Viechtbauer2010,10.18637/jss.v036.i03,metafor
+Bates2015,10.18637/jss.v067.i01,lme4
+IntHout2014,10.1186/1471-2288-14-25,HKSJ
+Mantel1959,10.1093/jnci/22.4.719,Mantel-Haenszel
+Bradburn2007,10.1002/sim.2528,rare events
+Cohen1960,10.1177/001316446002000104,kappa
+Bellos2020,10.1016/j.tmrv.2020.07.002,NMA hypophosphatemia
+Schaefer2021,10.1111/bcp.14643,SR hypophosphataemia FCM IIM
+Kennedy2023,10.1007/s11096-023-01548-2,SR HSR FDI FCM
+Pollock2022,10.1007/s12325-022-02242-x,CV events indirect
+Divers2026,10.1182/bloodadvances.2026019945,HSR NMA
+Azevedo2026,10.1016/j.htct.2026.106435,NMA IV iron

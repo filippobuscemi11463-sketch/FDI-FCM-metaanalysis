@@ -1,0 +1,127 @@
+[
+ {
+  "pmid": "27859495",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: dati di 231 pazienti ambulatoriali con switch di reparto FCM/ISM, studio osservazionale"
+ },
+ {
+  "pmid": "27889746",
+  "decisione": "escluso",
+  "motivo": "E4-non-umano: studio in vitro/ex vivo di attivazione del complemento"
+ },
+ {
+  "pmid": "27907058",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: coorte retrospettiva da cartelle cliniche FCM vs IIM"
+ },
+ {
+  "pmid": "28002754",
+  "decisione": "escluso",
+  "motivo": "E4-non-umano: studio in vitro su recettori Toll-like e complemento"
+ },
+ {
+  "pmid": "28326596",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica con network meta-analisi"
+ },
+ {
+  "pmid": "28371203",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review narrativa sulle formulazioni di ferro EV"
+ },
+ {
+  "pmid": "28814833",
+  "decisione": "escluso",
+  "motivo": "E4-non-umano: studio nel ratto"
+ },
+ {
+  "pmid": "28848355",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: modello di budget impact, nessun RCT proprio"
+ },
+ {
+  "pmid": "29032713",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: modello di budget impact, nessun RCT proprio"
+ },
+ {
+  "pmid": "30188740",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review su ferumoxytol"
+ },
+ {
+  "pmid": "30393904",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: coorte monocentrica FDI vs FCM"
+ },
+ {
+  "pmid": "30456520",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: valutazione economica basata su modello"
+ },
+ {
+  "pmid": "30535629",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: analisi di database EudraVigilance/VigiBase"
+ },
+ {
+  "pmid": "30689458",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica con confronto indiretto, nessun RCT FDI vs FCM identificato"
+ },
+ {
+  "pmid": "30937851",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: lettera di risposta a commento, senza dati propri"
+ },
+ {
+  "pmid": "30937852",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: commento senza dati propri"
+ },
+ {
+  "pmid": "31154627",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: lettera di commento a valutazione economica"
+ },
+ {
+  "pmid": "31154628",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: risposta a lettera, senza dati propri"
+ },
+ {
+  "pmid": "31264261",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: studio osservazionale prospettico in IBD, FCM vs FDI non randomizzati"
+ },
+ {
+  "pmid": "31583644",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: analisi di database EudraVigilance"
+ },
+ {
+  "pmid": "31928094",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review con confronto indiretto di trial prospettici"
+ },
+ {
+  "pmid": "32016310",
+  "decisione": "incluso",
+  "motivo": "due RCT open-label FDI (iron isomaltoside) vs FCM randomizzati, adulti con IDA"
+ },
+ {
+  "pmid": "32030608",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: modello di impatto sulle risorse, nessun RCT"
+ },
+ {
+  "pmid": "32208038",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: analisi di costo-efficacia su modello"
+ },
+ {
+  "pmid": "32444112",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review sulla terapia marziale EV"
+ }
+]

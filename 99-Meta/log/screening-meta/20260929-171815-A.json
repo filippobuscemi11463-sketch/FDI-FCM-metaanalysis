@@ -1,0 +1,127 @@
+[
+ {
+  "pmid": "32479668",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: pubtype Review, rianalisi di dati di HSR da cinque RCT già pubblicati (FIRM, FERWON, PHOSPHARE), nessun trial nuovo"
+ },
+ {
+  "pmid": "32654663",
+  "decisione": "incluso",
+  "motivo": "RCT in doppio cieco HOMe aFers, donne adulte con IDA randomizzate a FCM o FDI"
+ },
+ {
+  "pmid": "32819760",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: network meta-analisi sul rischio di ipofosfatemia"
+ },
+ {
+  "pmid": "32845453",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: case report di tre pazienti trattati con FCM, senza braccio FDI"
+ },
+ {
+  "pmid": "32918335",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: coorte multicentrica di ferro destrano a basso peso molecolare vs ferumoxytol, senza FDI né FCM"
+ },
+ {
+  "pmid": "33054113",
+  "decisione": "incluso",
+  "motivo": "RCT PK/PD con bracci randomizzati FCM, iron sucrose, iron isomaltoside 1000 e placebo; popolazione ipoferremica non anemica da verificare in fase 2"
+ },
+ {
+  "pmid": "33188534",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione sistematica e meta-analisi sull'ipofosfatemia da FCM e iron isomaltoside"
+ },
+ {
+  "pmid": "33216324",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: modello di costo-efficacia basato su network meta-analisi, non è un RCT"
+ },
+ {
+  "pmid": "33248279",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: analisi retrospettiva di reazioni da infusione di ferro EV in un network ospedaliero"
+ },
+ {
+  "pmid": "33317356",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review su FDI"
+ },
+ {
+  "pmid": "33442276",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: analisi economica con modello (budget impact) FDI vs FCM, non è un RCT"
+ },
+ {
+  "pmid": "33471939",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: revisione Cochrane con meta-analisi"
+ },
+ {
+  "pmid": "33498292",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review narrativa sulla terapia marziale in CKD"
+ },
+ {
+  "pmid": "33511892",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: lettera all'editore di risposta a un articolo di confronti indiretti, senza abstract né dati propri secondo il titolo"
+ },
+ {
+  "pmid": "33519940",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review narrativa su ipofosfatemia e FGF23"
+ },
+ {
+  "pmid": "33927444",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: articolo di rassegna sulle formulazioni di ferro EV"
+ },
+ {
+  "pmid": "33993818",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review sulla sicurezza dei ferri EV"
+ },
+ {
+  "pmid": "34007138",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: studio osservazionale prospettico in IBD, pazienti che ricevono FCM o FDI senza randomizzazione dichiarata (pubtype Observational Study)"
+ },
+ {
+  "pmid": "34053011",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review sull'ipofosfatemia da ferro EV"
+ },
+ {
+  "pmid": "34168471",
+  "decisione": "escluso",
+  "motivo": "E1-non-randomizzato: modello di costo-efficacia da network meta-analisi, non è un RCT"
+ },
+ {
+  "pmid": "34534708",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review completa sull'ipofosfatemia dopo ferro EV"
+ },
+ {
+  "pmid": "34758368",
+  "decisione": "escluso",
+  "motivo": "E3-non-primario: review sulle terapie marziali nell'anemia da CKD"
+ },
+ {
+  "pmid": "34850000",
+  "decisione": "incluso",
+  "motivo": "analisi secondaria dei RCT PHOSPHARE-IDA (FCM vs FDI, adulti con IDA, n=245)"
+ },
+ {
+  "pmid": "35000281",
+  "decisione": "escluso",
+  "motivo": "E4-non-umano: studio in vitro su cellule mesoteliali peritoneali"
+ },
+ {
+  "pmid": "35337966",
+  "decisione": "escluso",
+  "motivo": "E4-non-umano: biodistribuzione in modello murino di anemia"
+ }
+]
